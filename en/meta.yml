@@ -5,7 +5,13 @@ listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Step title
+  - title: Make some noise
+  - title: Foil switch
+  - title: Make a puppet
+  - title: Embed the switch
+  - title: Attach board
+  - title: Rotate the puppet
+  - title: Make some noise
     completion:
       - engaged      
   - title: Challenge
