@@ -1,4 +1,4 @@
-## Make some noise
+## Make a buzz
 
 Get the buzzer working 
 If you have a microbit V2 you can use the internal buzzer with code XXX ADD BELOW?

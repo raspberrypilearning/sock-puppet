@@ -1,5 +1,4 @@
-
-## Make the puppet head
+## Puppet head
 
 --- task ---
 

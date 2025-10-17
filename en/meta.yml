@@ -5,12 +5,14 @@ listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Rotate 
-  - title: Sad and happy sounds
-  - title: Foil switch
-  - title: Make the puppet
+  - title: Foil switch 
+  - title: Add buzzer
+  - title: Puppet head
+  - title: Make the face
+  - title: Hairstyle
   - title: Embed the switch
   - title: Attach board 
+  - title: Rotate 
     completion:
       - engaged      
   - title: Challenge
