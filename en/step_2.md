@@ -30,7 +30,7 @@ basic.forever(function () {
 
 ```microbit
 basic.forever(function () {
-+    if (!(input.pinIsPressed(TouchPin.P1))) {
+    if (!(input.pinIsPressed(TouchPin.P1))) {
         basic.showIcon(IconNames.Square)
     }
     if (input.pinIsPressed(TouchPin.P1)) {
@@ -38,21 +38,23 @@ basic.forever(function () {
     }
 })
 
-
 ```
-
 
 
 ```microbit
-let puppet_talking = true
 basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1)) && puppet_talking == false) {
-        basic.showIcon(IconNames.Heart)
-        puppet_talking = true
+    if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_open == false) {
+        basic.showIcon(IconNames.Square)
+        Mouth_open = true
     }
     if (input.pinIsPressed(TouchPin.P1)) {
-        puppet_talking = false
+        basic.showIcon(IconNames.SmallSquare)
+        Mouth_open = false
     }
 })
-
 ```
+
+```microbit
+let Mouth_open = true
+```
+

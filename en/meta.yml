@@ -13,6 +13,7 @@ steps:
   - title: Embed the switch
   - title: Attach board 
   - title: Rotate 
+  - title: Add sad sound 
     completion:
       - engaged      
   - title: Challenge
