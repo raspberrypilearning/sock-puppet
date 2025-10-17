@@ -1,24 +1,12 @@
-## Foil switch
-Get switch working for a basic 
+## Rotate 
+
+
+add cable (need to make image) also is the final image of the whole thing togheter
 
 --- task ---
 
-Open the sarter project ADD LINK
-
+look at accelerometer data in the serial port
 --- /task ---
-
-New to micro:bit?
-[[[makecode-tour]]]
-
---- task ---
-Attach one of the foil pieces to GND
-
-Attach the other to 1
-
-![ALT TEXT](images/circuit-4.png)
---- /task ---
-
-
 
 ```microbit
 let puppet_talking = true
@@ -39,3 +27,4 @@ basic.forever(function () {
     serial.writeValue("rotation", input.rotation(Rotation.Pitch))
 })
 ```
+

@@ -6,7 +6,7 @@ A brief description - one or two sentences.
 
 --- print-only ---
 
-![ALT TEXT](images/IMAGE.png)
+![ALT TEXT](images/parts-4.png)
 
 --- /print-only ---
 
@@ -19,6 +19,10 @@ A brief description - one or two sentences.
 --- no-print ---
 
 Video embed
+
+ADD film of it working (need to make)
+
+ADD photo of finisher thing (need to make)
 
 <video width="640" height="360" controls>
 <source src="images/videoname.mp4" type="video/mp4">
