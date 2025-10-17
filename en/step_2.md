@@ -18,6 +18,30 @@ Attach the other to 1
 ![ALT TEXT](images/circuit-4.png)
 --- /task ---
 
+```microbit
+basic.forever(function () {
+    if (input.pinIsPressed(TouchPin.P1)) {
+        basic.showIcon(IconNames.SmallSquare)
+    }
+})
+
+```
+
+
+```microbit
+basic.forever(function () {
++    if (!(input.pinIsPressed(TouchPin.P1))) {
+        basic.showIcon(IconNames.Square)
+    }
+    if (input.pinIsPressed(TouchPin.P1)) {
+        basic.showIcon(IconNames.SmallSquare)
+    }
+})
+
+
+```
+
+
 
 ```microbit
 let puppet_talking = true
