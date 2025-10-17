@@ -21,7 +21,6 @@ A brief description - one or two sentences.
 Video embed
 
 ADD film of it working (need to make)
-
 ADD photo of finisher thing (need to make)
 
 <video width="640" height="360" controls>
@@ -47,3 +46,4 @@ Scratch embed
 - a
 - b
 - c
+![ALT TEXT](images/parts-4.png)

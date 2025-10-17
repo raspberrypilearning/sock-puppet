@@ -13,6 +13,5 @@ Make puppet
 ![ALT TEXT](images/make-4.gif)
 ![ALT TEXT](images/make-5.png)
 ![ALT TEXT](images/make-6.png)
-![ALT TEXT](images/make-7.png)
 ![ALT TEXT](images/make-8.png)
 
