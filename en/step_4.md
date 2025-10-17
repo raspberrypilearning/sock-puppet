@@ -4,6 +4,7 @@
 
 Make puppet
 --- /task ---
+![ALT TEXT](images/sock-1.jpg)
 ![ALT TEXT](images/make-0.jpg)
 ![ALT TEXT](images/make-1.png)
 ![ALT TEXT](images/make-2.png)
