@@ -1,4 +1,5 @@
-## Add sad sound 
+## Rotate 
+
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Make a foil switch and add to micro:bit 
@@ -20,80 +21,25 @@ Make a foil switch and add to micro:bit
 
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
+add cable (need to make image) also is the final image of the whole thing togheter
+
+--- task ---
+
+look at accelerometer data in the serial port
+--- /task ---
 
 ```microbit
 basic.forever(function () {
-    if (input.rotation(Rotation.Pitch) < -38) {
-    	
-    } else {
-    	
-    }
+    serial.writeValue("rotation", input.rotation(Rotation.Pitch))
 })
 ```
 
-```microbit
-basic.forever(function () {
-    if (input.rotation(Rotation.Pitch) < -38) {
-        music.play(music.tonePlayable(880, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
-        music.play(music.tonePlayable(988, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-        basic.showIcon(IconNames.Square)
-        Mouth_open = true
-    } else {
-    	
-    }
-})
-```
+Go to device view
+![ALT TEXT](images/rotate-1.png)
 
-```microbit
-basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_open == false) {
-        if (input.rotation(Rotation.Pitch) < -38) {
-            music.play(music.tonePlayable(880, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
-            music.play(music.tonePlayable(988, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-            basic.showIcon(IconNames.Square)
-            Mouth_open = true
-        } else {
-        	
-        }
-    }
-})
-```
+look at how the graph moves when you move your arms
+![ALT TEXT](images/rotate-2.gif)
 
-```microbit
-basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_open == false) {
-        if (input.rotation(Rotation.Pitch) < -38) {
-            music.play(music.tonePlayable(880, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
-            music.play(music.tonePlayable(988, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-            basic.showIcon(IconNames.Square)
-            Mouth_open = true
-        } else {
-            music.play(music.tonePlayable(196, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
-            music.play(music.tonePlayable(165, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
-            Mouth_open = true
-        }
-    }
-})
-```
+record the number when down (in this case it is -38)
+![ALT TEXT](images/rotate-3.png)
 
-```microbit
-basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_open == false) {
-        if (input.rotation(Rotation.Pitch) < -38) {
-            music.play(music.tonePlayable(880, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
-            music.play(music.tonePlayable(988, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-            basic.showIcon(IconNames.Square)
-            Mouth_open = true
-        } else {
-            music.play(music.tonePlayable(196, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
-            music.play(music.tonePlayable(165, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
-            Mouth_open = true
-        }
-    }
-    if (input.pinIsPressed(TouchPin.P1)) {
-        music.stopAllSounds()
-        basic.showIcon(IconNames.SmallSquare)
-        Mouth_open = false
-    }
-})
-```

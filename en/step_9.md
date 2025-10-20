@@ -1,4 +1,4 @@
-## Rotate 
+## Attach board 
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -21,25 +21,15 @@ Make a foil switch and add to micro:bit
 
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
-add cable (need to make image) also is the final image of the whole thing togheter
-
 --- task ---
-
-look at accelerometer data in the serial port
+add micro bit etc. to puppet
 --- /task ---
 
-```microbit
-basic.forever(function () {
-    serial.writeValue("rotation", input.rotation(Rotation.Pitch))
-})
-```
+add image or diagram of where it should go to get good roation
 
-Go to device view
-![ALT TEXT](images/rotate-1.png)
-
-look at how the graph moves when you move your arms
-![ALT TEXT](images/rotate-2.gif)
-
-record the number when down (in this case it is -38)
-![ALT TEXT](images/rotate-3.png)
-
+![ALT TEXT](images/attach-2.jpg)
+![ALT TEXT](images/attach-2a.png)
+![ALT TEXT](images/attach-3.jpg)
+![ALT TEXT](images/attach-4.jpg)
+![ALT TEXT](images/attach-7.png)
+![ALT TEXT](images/attach-8.png)

@@ -5,7 +5,8 @@ listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Foil switch 
+  - title: Mouth closed switch
+  - title: Open switch 
   - title: Add buzzer
   - title: Puppet head
   - title: Make the face

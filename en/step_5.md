@@ -1,4 +1,4 @@
-## Make the face
+## Puppet head
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -24,17 +24,17 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 
 --- task ---
 
-add features 
+Make puppet
 --- /task ---
-
-
-![ALT TEXT](images/mouth-1.png)
-![ALT TEXT](images/mouth-2.png)
-![ALT TEXT](images/mouth-3.png)
-
-![ALT TEXT](images/eye-1.png)
-![ALT TEXT](images/eye-2.png)
-
-
-
+![ALT TEXT](images/sock-1.jpg)
+![ALT TEXT](images/make-0.jpg)
+![ALT TEXT](images/make-1.png)
+![ALT TEXT](images/make-2.png)
+![ALT TEXT](images/make-3.png)
+![ALT TEXT](images/make-3a.png)
+![ALT TEXT](images/make-3b.png)
+![ALT TEXT](images/make-4.gif)
+![ALT TEXT](images/make-5.png)
+![ALT TEXT](images/make-6.png)
+![ALT TEXT](images/make-8.png)
 

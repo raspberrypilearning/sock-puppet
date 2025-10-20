@@ -1,4 +1,4 @@
-## Puppet head
+## Make a buzz
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -22,19 +22,54 @@ Make a foil switch and add to micro:bit
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
---- task ---
+Get the buzzer working 
+If you have a microbit V2 you can use the internal buzzer, skip to adding the blocks below.
 
-Make puppet
+
+
+--- task ---
+Attach short leg to GND
+
+Attach longer led to O
+
+![ALT TEXT](images/circuit-3.png)
 --- /task ---
-![ALT TEXT](images/sock-1.jpg)
-![ALT TEXT](images/make-0.jpg)
-![ALT TEXT](images/make-1.png)
-![ALT TEXT](images/make-2.png)
-![ALT TEXT](images/make-3.png)
-![ALT TEXT](images/make-3a.png)
-![ALT TEXT](images/make-3b.png)
-![ALT TEXT](images/make-4.gif)
-![ALT TEXT](images/make-5.png)
-![ALT TEXT](images/make-6.png)
-![ALT TEXT](images/make-8.png)
+
+
+```microbit
+basic.forever(function () {
+    if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_open == false) {
+        music.play(music.tonePlayable(880, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
+        music.play(music.tonePlayable(988, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
+        basic.showIcon(IconNames.Square)
+        Mouth_open = true
+    }
+    if (input.pinIsPressed(TouchPin.P1)) {
+        music.stopAllSounds()
+        basic.showIcon(IconNames.SmallSquare)
+        Mouth_open = false
+    }
+})
+```
+
+Version 2 only
+```microbit
+let Mouth_open = true
+music.setBuiltInSpeakerEnabled(true)
+```
+
+```microbit
+basic.forever(function () {
+    if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_open == false) {
+        music.play(music.createSoundExpression(WaveShape.Sawtooth, 4729, 1459, 255, 161, 200, SoundExpressionEffect.Warble, InterpolationCurve.Curve), music.PlaybackMode.UntilDone)
+        basic.showIcon(IconNames.Square)
+        Mouth_open = true
+    }
+    if (input.pinIsPressed(TouchPin.P1)) {
+        music.stopAllSounds()
+        basic.showIcon(IconNames.SmallSquare)
+        Mouth_open = false
+    }
+})
+```
 

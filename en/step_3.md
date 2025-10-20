@@ -1,8 +1,8 @@
-## Make a buzz
+## Foil switch
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make a foil switch and add to micro:bit 
+Make a foil switch and add to the micro:bit 
 </div>
 <div>
 
@@ -22,54 +22,91 @@ Make a foil switch and add to micro:bit
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
-Get the buzzer working 
-If you have a microbit V2 you can use the internal buzzer with code XXX ADD BELOW?
-
-do the if NOT thing
-
 --- task ---
-Attach short leg to GND
+### Use a **not** block
 
-Attach longer led to O
+When the puppet mouth is open the foil is seperated, and `not`{:class='microbitlogic'} pressed.
 
-![ALT TEXT](images/circuit-3.png)
+In a new `if`{:class='microbitlogic'} block and drag a `not`{:class='microbitlogic'}
+
+```microbit
+let Mouth_closed = false
+basic.forever(function () {
+    if (!(false)) {
+    	
+    }
+    if (input.pinIsPressed(TouchPin.P1)) {
+        basic.showIcon(IconNames.SmallSquare)
+        Mouth_closed = true
+    }
+})
+```
 --- /task ---
 
 
+--- task ---
+Add a `Pin is pressed`{:class='microbitinput'} block, and change to `P1`{:class='microbitinput'}. 
+
 ```microbit
+let Mouth_closed = false
 basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_open == false) {
-        music.play(music.tonePlayable(880, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
-        music.play(music.tonePlayable(988, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-        basic.showIcon(IconNames.Square)
-        Mouth_open = true
+    if (!(input.pinIsPressed(TouchPin.P1))) {
+    	
     }
     if (input.pinIsPressed(TouchPin.P1)) {
-        music.stopAllSounds()
         basic.showIcon(IconNames.SmallSquare)
-        Mouth_open = false
+        Mouth_closed = true
     }
 })
 ```
+--- /task ---
 
-Version 2 only
-```microbit
-let Mouth_open = true
-music.setBuiltInSpeakerEnabled(true)
-```
 
+--- task ---
+Add a large square icon from the `basic`{:class='microbitbasic'} menu
 ```microbit
+let Mouth_closed = false
 basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_open == false) {
-        music.play(music.createSoundExpression(WaveShape.Sawtooth, 4729, 1459, 255, 161, 200, SoundExpressionEffect.Warble, InterpolationCurve.Curve), music.PlaybackMode.UntilDone)
+    if (!(input.pinIsPressed(TouchPin.P1))) {
         basic.showIcon(IconNames.Square)
-        Mouth_open = true
     }
     if (input.pinIsPressed(TouchPin.P1)) {
-        music.stopAllSounds()
         basic.showIcon(IconNames.SmallSquare)
-        Mouth_open = false
+        Mouth_closed = true
     }
 })
 ```
+--- /task ---
 
+
+--- task ---
+Keep track of when the mouth is open or closed by adding `set Mouth closed`{:class='microbitvariables'} as `false`{:class='microbitlogic'}.
+
+```microbit
+let Mouth_closed = false
+basic.forever(function () {
+    if (!(input.pinIsPressed(TouchPin.P1))) {
+        basic.showIcon(IconNames.Square)
+        Mouth_closed = false
+    }
+    if (input.pinIsPressed(TouchPin.P1)) {
+        basic.showIcon(IconNames.SmallSquare)
+        Mouth_closed = true
+    }
+})
+```
+--- /task ---
+
+
+--- task ---
+In the `on start`{:class='microbitbasic'} block add `set Mouth closed`{:class='microbitvariables'} as `true`{:class='microbitlogic'} so that the puppet mouth is closed when starting up.
+
+```microbit
+let Mouth_closed = true
+```
+--- /task ---
+
+
+--- task ---
+**Test:** see the icon light up differently when the foil is pressed or not pressed.
+--- /task ---

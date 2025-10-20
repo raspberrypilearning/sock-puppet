@@ -1,4 +1,4 @@
-## Hairstyle
+## Make the face
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -24,14 +24,17 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 
 --- task ---
 
+add features 
 --- /task ---
 
 
-![ALT TEXT](images/hair-1.png)
-![ALT TEXT](images/hair-2.gif)
-![ALT TEXT](images/hair-3.png)
-![ALT TEXT](images/hair-4.png)
-![ALT TEXT](images/hair-5.png)
-![ALT TEXT](images/hair-6.png)
-![ALT TEXT](images/hair-7.png)
-![ALT TEXT](images/hair-8.png)
+![ALT TEXT](images/mouth-1.png)
+![ALT TEXT](images/mouth-2.png)
+![ALT TEXT](images/mouth-3.png)
+
+![ALT TEXT](images/eye-1.png)
+![ALT TEXT](images/eye-2.png)
+
+
+
+

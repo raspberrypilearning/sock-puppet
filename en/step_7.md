@@ -1,4 +1,4 @@
-## Embed the switch
+## Hairstyle
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -21,15 +21,17 @@ Make a foil switch and add to micro:bit
 
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
+
 --- task ---
 
-add switch to puppet mouth
 --- /task ---
 
 
-![ALT TEXT](images/switch-0.png)
-![ALT TEXT](images/switch-0a.png)
-![ALT TEXT](images/switch-1.png)
-![ALT TEXT](images/switch-1a.png)
-![ALT TEXT](images/switch-2.png)
-![ALT TEXT](images/switch-3.png)
+![ALT TEXT](images/hair-1.png)
+![ALT TEXT](images/hair-2.gif)
+![ALT TEXT](images/hair-3.png)
+![ALT TEXT](images/hair-4.png)
+![ALT TEXT](images/hair-5.png)
+![ALT TEXT](images/hair-6.png)
+![ALT TEXT](images/hair-7.png)
+![ALT TEXT](images/hair-8.png)

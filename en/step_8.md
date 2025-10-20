@@ -1,4 +1,4 @@
-## Attach board 
+## Embed the switch
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -22,14 +22,14 @@ Make a foil switch and add to micro:bit
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 --- task ---
-add micro bit etc. to puppet
+
+add switch to puppet mouth
 --- /task ---
 
-add image or diagram of where it should go to get good roation
 
-![ALT TEXT](images/attach-2.jpg)
-![ALT TEXT](images/attach-2a.png)
-![ALT TEXT](images/attach-3.jpg)
-![ALT TEXT](images/attach-4.jpg)
-![ALT TEXT](images/attach-7.png)
-![ALT TEXT](images/attach-8.png)
+![ALT TEXT](images/switch-0.png)
+![ALT TEXT](images/switch-0a.png)
+![ALT TEXT](images/switch-1.png)
+![ALT TEXT](images/switch-1a.png)
+![ALT TEXT](images/switch-2.png)
+![ALT TEXT](images/switch-3.png)

@@ -49,21 +49,25 @@ Give your new project a name (e.g. 'Sock puppet') and click **Create**.
 
 --- /task ---
 
---- task ---
-### Attach foil switch
+The puppet uses a foil switch to detect if the mouth is **open** or **closed**.
 
-The puppet uses a foil switch to detect if the mouth is open or closed.
+![ALT TEXT](images/open-close.gif)
+
+--- task ---
+### Make a foil switch
 
 On the micro:bit, clip one bit of foil to `GND` and the other to `P1`{:class='microbitinput'}
 
 ![ALT TEXT](images/circuit-4.png)
 --- /task ---
 
+
 --- task ---
 Plug your micro:bit into your computer. 
 
 Click download, and the pair button.
 --- /task ---
+
 
 --- task ---
 ### Add blocks
@@ -79,11 +83,13 @@ basic.forever(function () {
 ```
 --- /task ---
 
+
 --- task ---
 Drag an `Pin is pressed`{:class='microbitinput'} block over `true`{:class='microbitlogic'}, and change to `P1`{:class='microbitinput'} in the dropdown menu.
 
 ![ALT TEXT](images/pressed.gif)
 --- /task ---
+
 
 --- task ---
 Add a `show icon`{:class="microbitbasic"}, and choose small square from the menu. 
@@ -91,13 +97,13 @@ Add a `show icon`{:class="microbitbasic"}, and choose small square from the menu
 If the two bits of foil are pressed together, the icon shows.
 
 ![ALT TEXT](images/icon.gif)
-
 --- /task ---
 
---- task ---
-To track when the mouth is open and closed make a new `variable`{:class='microbitvariable'} called 'Mouth closed'.
 
-Add a `set Mouth closed`{:class='microbitvariable'} block, and from the `logic`{:class='microbitlogic'} menu add a `true`{:class='microbitlogic'} block.
+--- task ---
+To track when the mouth is open and closed make a new `variable`{:class='microbitvariables'} called 'Mouth closed'.
+
+Add a `set Mouth closed`{:class='microbitvariables'} block, and from the `logic`{:class='microbitlogic'} menu add a `true`{:class='microbitlogic'} block.
 
 ```microbit
 let Mouth_closed = false
@@ -109,95 +115,8 @@ basic.forever(function () {
 })
 ```
 --- /task ---
+
 
 --- task ---
 **Test:** hold the two foil bits together and see the icon light up.
-
---- /task ---
-
---- task ---
-### Use a `not`{:class='microbitlogic'}
-
-When the puppet mouth is open, the foil is seperated, and `not`{:class='microbitlogic'} pressed.
-
-In a new `if`{:class='microbitlogic'} block and drag a `not`{:class='microbitlogic'}
-
-```microbit
-let Mouth_closed = false
-basic.forever(function () {
-    if (!(false)) {
-    	
-    }
-    if (input.pinIsPressed(TouchPin.P1)) {
-        basic.showIcon(IconNames.SmallSquare)
-        Mouth_closed = true
-    }
-})
-```
---- /task ---
-
---- task ---
-Add a `Pin is pressed`{:class='microbitinput'} block, and change to `P1`{:class='microbitinput'}. 
-
-```microbit
-let Mouth_closed = false
-basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1))) {
-    	
-    }
-    if (input.pinIsPressed(TouchPin.P1)) {
-        basic.showIcon(IconNames.SmallSquare)
-        Mouth_closed = true
-    }
-})
-```
---- /task ---
-
---- task ---
-Add a large square icon from the `basic`{:class='microbitbasic'} menu
-```microbit
-let Mouth_closed = false
-basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1))) {
-        basic.showIcon(IconNames.Square)
-    }
-    if (input.pinIsPressed(TouchPin.P1)) {
-        basic.showIcon(IconNames.SmallSquare)
-        Mouth_closed = true
-    }
-})
-
-```
---- /task ---
-
---- task ---
-Keep track of when the mouth is open or closed by adding `set Mouth closed`{:class='microbitvariable'} as `false`{:class='microbitlogic'}.
-
-```microbit
-let Mouth_closed = false
-basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1))) {
-        basic.showIcon(IconNames.Square)
-        Mouth_closed = false
-    }
-    if (input.pinIsPressed(TouchPin.P1)) {
-        basic.showIcon(IconNames.SmallSquare)
-        Mouth_closed = true
-    }
-})
-```
---- /task ---
-
-
---- task ---
-In the `on start`{:class='microbitbasic'} block add `set Mouth closed`{:class='microbitvariables'} as `true`{:class='microbitlogic'} so that the puppet mouth is closed when starting up.
-
-```microbit
-let Mouth_closed = true
-```
---- /task ---
-
-
---- task ---
-**Test:** see the icon light up differently when the foil is pressed or not pressed.
 --- /task ---
