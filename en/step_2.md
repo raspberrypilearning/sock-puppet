@@ -66,6 +66,8 @@ Click download, and the pair button.
 --- /task ---
 
 --- task ---
+### Add blocks
+
 Drag an `if true`{:class='microbitlogic'} block from the `logic`{:class='microbitlogic'}  menu into the `forever`{:class="microbitbasic"} block.
 
 ```microbit
@@ -78,8 +80,6 @@ basic.forever(function () {
 --- /task ---
 
 --- task ---
-When the puppet mouth is closed, the foil switch will be connected.
-
 Drag an `Pin is pressed`{:class='microbitinput'} block over `true`{:class='microbitlogic'}, and change to `P1`{:class='microbitinput'} in the dropdown menu.
 
 ![ALT TEXT](images/pressed.gif)
@@ -88,12 +88,16 @@ Drag an `Pin is pressed`{:class='microbitinput'} block over `true`{:class='micro
 --- task ---
 Add a `show icon`{:class="microbitbasic"}, and choose small square from the menu. 
 
+If the two bits of foil are pressed together, the icon shows.
+
 ![ALT TEXT](images/icon.gif)
 
 --- /task ---
 
 --- task ---
-We need to track when the mouth is open and closed. Make a `variable` called 'Mouth closed', and add a `set Mouth closed` block. From the `logic` menu add a 'true' block.
+To track when the mouth is open and closed make a new `variable`{:class='microbitvariable'} called 'Mouth closed'.
+
+Add a `set Mouth closed`{:class='microbitvariable'} block, and from the `logic`{:class='microbitlogic'} menu add a `true`{:class='microbitlogic'} block.
 
 ```microbit
 let Mouth_closed = false
@@ -107,16 +111,16 @@ basic.forever(function () {
 --- /task ---
 
 --- task ---
-**Test:** Hold the two foil bits together and see the icon light up.
+**Test:** hold the two foil bits together and see the icon light up.
 
 --- /task ---
 
 --- task ---
-### Use a `not`
+### Use a `not`{:class='microbitlogic'}
 
-When the puppet mouth is open, the foil will `not` be connected.
+When the puppet mouth is open, the foil is seperated, and `not`{:class='microbitlogic'} pressed.
 
-Drag another if statement and add `not`
+In a new `if`{:class='microbitlogic'} block and drag a `not`{:class='microbitlogic'}
 
 ```microbit
 let Mouth_closed = false
@@ -133,7 +137,7 @@ basic.forever(function () {
 --- /task ---
 
 --- task ---
-Drag a `Pin is pressed`{:class='microbitinput'} block, and change to `P1`. 
+Add a `Pin is pressed`{:class='microbitinput'} block, and change to `P1`{:class='microbitinput'}. 
 
 ```microbit
 let Mouth_closed = false
@@ -150,7 +154,7 @@ basic.forever(function () {
 --- /task ---
 
 --- task ---
-Add a large square icon from the `basic` menu
+Add a large square icon from the `basic`{:class='microbitbasic'} menu
 ```microbit
 let Mouth_closed = false
 basic.forever(function () {
@@ -167,7 +171,7 @@ basic.forever(function () {
 --- /task ---
 
 --- task ---
-Keep track of when the mouth is open or closed by adding a `set Mouth closed` to `false`.
+Keep track of when the mouth is open or closed by adding `set Mouth closed`{:class='microbitvariable'} as `false`{:class='microbitlogic'}.
 
 ```microbit
 let Mouth_closed = false
@@ -184,17 +188,16 @@ basic.forever(function () {
 ```
 --- /task ---
 
+
 --- task ---
-In the `on start` block add a `set Mouth closed` to `true` so that the puppet mouth is closed when starting up.
+In the `on start`{:class='microbitbasic'} block add `set Mouth closed`{:class='microbitvariable'} as `true`{:class='microbitlogic'} so that the puppet mouth is closed when starting up.
 
 ```microbit
 let Mouth_closed = true
-basic.on_start(function () {
-    Mouth_closed = true
-})
 ```
 --- /task ---
 
+
 --- task ---
-**Test:** See the icon light up differently when the foil is connected or non connected
+**Test:** see the icon light up differently when the foil is pressed or not pressed.
 --- /task ---
