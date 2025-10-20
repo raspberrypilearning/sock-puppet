@@ -1,4 +1,4 @@
-## Foil switch
+## Open switch 
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -49,12 +49,13 @@ Give your new project a name (e.g. 'Sock puppet') and click **Create**.
 
 --- /task ---
 
-The puppet uses a foil switch to detect if the mouth is **open** or **closed**.
-
-![ALT TEXT](images/open-close.gif)
 
 --- task ---
 ### Make a foil switch
+
+The puppet uses a foil switch to detect if the mouth is **open** or **closed**.
+
+![ALT TEXT](images/open-close.gif)
 
 On the micro:bit, clip one bit of foil to `GND` and the other to `P1`{:class='microbitinput'}
 

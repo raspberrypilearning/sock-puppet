@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make a foil switch and add to the micro:bit 
+Add blocks for when puppet mouth is open, and **not** pressed
 </div>
 <div>
 
@@ -26,6 +26,8 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 ### Use a **not** block
 
 When the puppet mouth is open the foil is seperated, and `not`{:class='microbitlogic'} pressed.
+
+![ALT TEXT](images/open.png)
 
 In a new `if`{:class='microbitlogic'} block and drag a `not`{:class='microbitlogic'}
 

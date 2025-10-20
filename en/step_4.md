@@ -1,8 +1,8 @@
-## Make a buzz
+## Add buzzer
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make a foil switch and add to micro:bit 
+Add buzzer to make some noise!
 </div>
 <div>
 
@@ -22,54 +22,73 @@ Make a foil switch and add to micro:bit
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
-Get the buzzer working 
-If you have a microbit V2 you can use the internal buzzer, skip to adding the blocks below.
-
-
+If you are using a **micro:bit V2** you can use the internal buzzer, skip this bit and go the blocks below.
 
 --- task ---
-Attach short leg to GND
+### Add buzzer to the micro:bit board
 
-Attach longer led to O
+Clip the short leg to `GND` and the longer leg to `PO`{:class='microbitinput'}
 
 ![ALT TEXT](images/circuit-3.png)
 --- /task ---
 
 
+--- task ---
+### Mouth open blocks
+
+To only turn on when mouth is open, replace the `not` with an `and` block from the `logic` menu.
+
 ```microbit
+let Mouth_closed = true
 basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_open == false) {
-        music.play(music.tonePlayable(880, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
-        music.play(music.tonePlayable(988, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
+    if (!(false) && false) {
         basic.showIcon(IconNames.Square)
-        Mouth_open = true
+        Mouth_closed = false
+    }
+    if (input.pinIsPressed(TouchPin.P1)) {
+        basic.showIcon(IconNames.SmallSquare)
+        Mouth_closed = true
+    }
+})
+```
+--- /task ---
+
+--- task ---
+Drag the Not pressed back into the first field. In the second add a equals block.
+
+Add `Mouth closed` and `true' block to this.
+
+![ALT TEXT](images/and.gif)
+--- /task ---
+
+
+--- task ---
+### Puppet speech
+
+Drag two music blocks and add some sounds - these will be the happy sounds so make them 1/2 or 1/4 beat and high notes.
+
+```microbit
+let Mouth_closed = true
+basic.forever(function () {
+    if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_closed == true) {
+        music.play(music.tonePlayable(784, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
+        music.play(music.tonePlayable(698, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
+        basic.showIcon(IconNames.Square)
+        Mouth_closed = false
     }
     if (input.pinIsPressed(TouchPin.P1)) {
         music.stopAllSounds()
         basic.showIcon(IconNames.SmallSquare)
-        Mouth_open = false
+        Mouth_closed = true
     }
 })
-```
-
-Version 2 only
 ```microbit
-let Mouth_open = true
-music.setBuiltInSpeakerEnabled(true)
-```
 
-```microbit
-basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_open == false) {
-        music.play(music.createSoundExpression(WaveShape.Sawtooth, 4729, 1459, 255, 161, 200, SoundExpressionEffect.Warble, InterpolationCurve.Curve), music.PlaybackMode.UntilDone)
-        basic.showIcon(IconNames.Square)
-        Mouth_open = true
-    }
-    if (input.pinIsPressed(TouchPin.P1)) {
-        music.stopAllSounds()
-        basic.showIcon(IconNames.SmallSquare)
-        Mouth_open = false
-    }
-})
-```
+If using Micro:bit V2 you could expereiment with the sound simulator.
+--- /task ---
 
+
+
+--- task ---
+**Test:** listen for the sounds when the the foil is not pressed together
+--- /task ---
