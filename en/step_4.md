@@ -22,10 +22,11 @@ Add buzzer to make some noise!
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
-If you are using a **micro:bit V2** you can use the internal buzzer, skip this bit and go the blocks below.
 
 --- task ---
 ### Add buzzer to the micro:bit board
+
+If you are using a **micro:bit V2** you can use the internal buzzer, skip this bit and go the blocks below.
 
 Clip the short leg to `GND` and the longer leg to `PO`{:class='microbitinput'}
 
@@ -36,10 +37,9 @@ Clip the short leg to `GND` and the longer leg to `PO`{:class='microbitinput'}
 --- task ---
 ### Mouth open blocks
 
-To only turn on when mouth is open, replace the `not` with an `and` block from the `logic` menu.
+To turn on when mouth is open only, replace the `not` with an `and` block from the `logic` menu.
 
 ```microbit
-let Mouth_closed = true
 basic.forever(function () {
     if (!(false) && false) {
         basic.showIcon(IconNames.Square)
@@ -68,7 +68,6 @@ Add `Mouth closed` and `true' block to this.
 Drag two music blocks and add some sounds - these will be the happy sounds so make them 1/2 or 1/4 beat and high notes.
 
 ```microbit
-let Mouth_closed = true
 basic.forever(function () {
     if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_closed == true) {
         music.play(music.tonePlayable(784, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
@@ -82,11 +81,10 @@ basic.forever(function () {
         Mouth_closed = true
     }
 })
-```microbit
+```
 
 If using Micro:bit V2 you could expereiment with the sound simulator.
 --- /task ---
-
 
 
 --- task ---
