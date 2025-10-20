@@ -76,7 +76,7 @@ basic.forever(function () {
 --- /task ---
 
 **TIP: line up the red dots
-![ALT TEXT](images/circuit-4.png)
+![ALT TEXT](images/pressed.gif)
 
 -- task ---
 Add a `show icon`{:class="microbitbasic"}, and choose small square from the menu. 
@@ -90,54 +90,23 @@ basic.forever(function () {
 ```
 --- /task ---
 **TIP: scroll down to choose the small square
-![ALT TEXT](images/circuit-4.png)
+![ALT TEXT](images/icon.gif)
 
 ### Attach foil switch
 
 --- task ---
-With a clip, attach one of the foil pieces to GND and the other to P1
+On the micro:bit, clip one bit of foil to GND and the other to P1
 
 ![ALT TEXT](images/circuit-4.png)
 --- /task ---
 
 --- task ---
-**Test
+Plug your micro:bit into your computer. 
 
-When you 
-
+Click download, and click the pair button.
 --- /task ---
 
+--- task ---
+**Test: Connect the two foil bits together and see the board LEDs light up
 
-
-### Make a NOT pressed
-
-
-```microbit
-basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1))) {
-        basic.showIcon(IconNames.Square)
-    }
-    if (input.pinIsPressed(TouchPin.P1)) {
-        basic.showIcon(IconNames.SmallSquare)
-    }
-})
-
-```
-
-```microbit
-basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_open == false) {
-        basic.showIcon(IconNames.Square)
-        Mouth_open = true
-    }
-    if (input.pinIsPressed(TouchPin.P1)) {
-        basic.showIcon(IconNames.SmallSquare)
-        Mouth_open = false
-    }
-})
-```
-
-```microbit
-let Mouth_open = true
-```
-
+--- /task ---
