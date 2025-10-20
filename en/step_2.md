@@ -190,7 +190,7 @@ basic.forever(function () {
 
 
 --- task ---
-In the `on start`{:class='microbitbasic'} block add `set Mouth closed`{:class='microbitvariable'} as `true`{:class='microbitlogic'} so that the puppet mouth is closed when starting up.
+In the `on start`{:class='microbitbasic'} block add `set Mouth closed`{:class='microbitvariables'} as `true`{:class='microbitlogic'} so that the puppet mouth is closed when starting up.
 
 ```microbit
 let Mouth_closed = true
