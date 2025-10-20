@@ -37,11 +37,11 @@ Clip the short leg to `GND` and the longer leg to `PO`{:class='microbitinput'}
 --- task ---
 ### Mouth open blocks
 
-To turn on when mouth is open only, replace the `not` with an `and` block from the `logic` menu.
+To turn only play the sound once when the mouth is open, replace the `not`{:class='microbitlogic'} with an `and`{:class='microbitlogic'} block from the `logic`{:class='microbitlogic'} menu.
 
 ```microbit
 basic.forever(function () {
-    if (!(false) && false) {
+    if (() && ()) {
         basic.showIcon(IconNames.Square)
         Mouth_closed = false
     }
@@ -53,10 +53,12 @@ basic.forever(function () {
 ```
 --- /task ---
 
---- task ---
-Drag the Not pressed back into the first field. In the second add a equals block.
+**TIP: this stops the sound from repeating when the puppet mouth is open.
 
-Add `Mouth closed` and `true' block to this.
+--- task ---
+Drag the `not`{:class='microbitlogic'} and `Pin pressed`{:class='microbitinput'} blocks back into the first field. In the second add an `equals`{:class='microbitlogic'} block.
+
+Add `Mouth closed`{:class='microbitvariables'} and `true'{:class='microbitlogic'} block to this.
 
 ![ALT TEXT](images/and.gif)
 --- /task ---
@@ -65,7 +67,9 @@ Add `Mouth closed` and `true' block to this.
 --- task ---
 ### Puppet speech
 
-Drag two music blocks and add some sounds - these will be the happy sounds so make them 1/2 or 1/4 beat and high notes.
+Drag two `music`{:class='microbitmusic'} blocks and add some sounds.
+
+These will be the happy sounds so make them 1/2 or 1/4 beat and high notes.
 
 ```microbit
 basic.forever(function () {
@@ -83,7 +87,7 @@ basic.forever(function () {
 })
 ```
 
-If using Micro:bit V2 you could expereiment with the sound simulator.
+If using Micro:bit V2 you could expereiment with the `sound simulator`{:class='microbitmusic'} blocks.
 --- /task ---
 
 
