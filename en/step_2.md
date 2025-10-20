@@ -22,6 +22,94 @@ Make a foil switch and add to the micro:bit
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
+###Set up the micro:bit
+
+--- task ---
+
+Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
+
+--- /task ---
+
+New to micro:bit?
+[[[makecode-tour]]]
+
+--- task ---
+### Create your project
+
+Create and name your project: 
+
+Click on the **New Project** button.
+
+<img src="images/new-project-button.png" alt="The New Project button inside MakeCode." width="250"/>
+
+--- /task ---
+
+--- task ---
+
+Give your new project a name (e.g. 'Sock puppet') and click **Create**.
+
+--- /task ---
+
+
+--- task ---
+Drag an `if true`{:class='microbitlogic'} block from the `logic`{:class='microbitlogic'}  menu into the `forever`{:class="microbitbasic"} block.
+
+```microbit
+basic.forever(function () {
+    if (true) {
+    	
+    }
+})
+```
+--- /task ---
+
+--- task ---
+Drag an `Pin is pressed`{:class='microbitinput'} block over `true`{:class='microbitlogic'}, and change to `P1`{:class='microbitinput'} in the dropdown menu.
+
+```microbit
+basic.forever(function () {
+    if (input.pinIsPressed(TouchPin.P1)) {
+        
+    }
+})
+```
+--- /task ---
+
+**TIP: line up the red dots
+![ALT TEXT](images/pressed.gif)
+
+-- task ---
+Add a `show icon`{:class="microbitbasic"}, and choose small square from the menu. 
+
+```microbit
+basic.forever(function () {
+    if (input.pinIsPressed(TouchPin.P1)) {
+        basic.showIcon(IconNames.SmallSquare)
+    }
+})
+```
+--- /task ---
+**TIP: scroll down to choose the small square
+![ALT TEXT](images/icon.gif)
+
+### Attach foil switch
+
+--- task ---
+On the micro:bit, clip one bit of foil to GND and the other to P1
+
+![ALT TEXT](images/circuit-4.png)
+--- /task ---
+
+--- task ---
+Plug your micro:bit into your computer. 
+
+Click download, and click the pair button.
+--- /task ---
+
+--- task ---
+**Test: Connect the two foil bits together and see the board LEDs light up
+
+--- /task ---
 ### Make a NOT pressed
 
 ```microbit
