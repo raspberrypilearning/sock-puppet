@@ -22,7 +22,6 @@ Make a foil switch and add to the micro:bit
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
-###Set up the micro:bit
 
 --- task ---
 
@@ -50,6 +49,21 @@ Give your new project a name (e.g. 'Sock puppet') and click **Create**.
 
 --- /task ---
 
+--- task ---
+### Attach foil switch
+
+The puppet uses a foil switch to detect if the mouth is open or closed.
+
+On the micro:bit, clip one bit of foil to `GND` and the other to `P1`{:class='microbitinput'}
+
+![ALT TEXT](images/circuit-4.png)
+--- /task ---
+
+--- task ---
+Plug your micro:bit into your computer. 
+
+Click download, and the pair button.
+--- /task ---
 
 --- task ---
 Drag an `if true`{:class='microbitlogic'} block from the `logic`{:class='microbitlogic'}  menu into the `forever`{:class="microbitbasic"} block.
@@ -64,80 +78,123 @@ basic.forever(function () {
 --- /task ---
 
 --- task ---
+When the puppet mouth is closed, the foil switch will be connected.
+
 Drag an `Pin is pressed`{:class='microbitinput'} block over `true`{:class='microbitlogic'}, and change to `P1`{:class='microbitinput'} in the dropdown menu.
 
-```microbit
-basic.forever(function () {
-    if (input.pinIsPressed(TouchPin.P1)) {
-        
-    }
-})
-```
+![ALT TEXT](images/pressed.gif)
 --- /task ---
 
-**TIP: line up the red dots
-![ALT TEXT](images/pressed.gif)
-
--- task ---
+--- task ---
 Add a `show icon`{:class="microbitbasic"}, and choose small square from the menu. 
 
+![ALT TEXT](images/icon.gif)
+
+--- /task ---
+
+--- task ---
+We need to track when the mouth is open and closed. Make a `variable` called 'Mouth closed', and add a `set Mouth closed` block. From the `logic` menu add a 'true' block.
+
 ```microbit
+let Mouth_closed = false
 basic.forever(function () {
     if (input.pinIsPressed(TouchPin.P1)) {
         basic.showIcon(IconNames.SmallSquare)
+        Mouth_closed = true
     }
 })
 ```
 --- /task ---
-**TIP: scroll down to choose the small square
-![ALT TEXT](images/icon.gif)
-
-### Attach foil switch
 
 --- task ---
-On the micro:bit, clip one bit of foil to GND and the other to P1
+**Test:** Hold the two foil bits together and see the icon light up.
 
-![ALT TEXT](images/circuit-4.png)
 --- /task ---
 
 --- task ---
-Plug your micro:bit into your computer. 
+### Use a `not`
 
-Click download, and click the pair button.
---- /task ---
+When the puppet mouth is open, the foil will `not` be connected.
 
---- task ---
-**Test: Connect the two foil bits together and see the board LEDs light up
-
---- /task ---
-### Make a NOT pressed
+Drag another if statement and add `not`
 
 ```microbit
+let Mouth_closed = false
+basic.forever(function () {
+    if (!(false)) {
+    	
+    }
+    if (input.pinIsPressed(TouchPin.P1)) {
+        basic.showIcon(IconNames.SmallSquare)
+        Mouth_closed = true
+    }
+})
+```
+--- /task ---
+
+--- task ---
+Drag a `Pin is pressed`{:class='microbitinput'} block, and change to `P1`. 
+
+```microbit
+let Mouth_closed = false
+basic.forever(function () {
+    if (!(input.pinIsPressed(TouchPin.P1))) {
+    	
+    }
+    if (input.pinIsPressed(TouchPin.P1)) {
+        basic.showIcon(IconNames.SmallSquare)
+        Mouth_closed = true
+    }
+})
+```
+--- /task ---
+
+--- task ---
+Add a large square icon from the `basic` menu
+```microbit
+let Mouth_closed = false
 basic.forever(function () {
     if (!(input.pinIsPressed(TouchPin.P1))) {
         basic.showIcon(IconNames.Square)
     }
     if (input.pinIsPressed(TouchPin.P1)) {
         basic.showIcon(IconNames.SmallSquare)
+        Mouth_closed = true
     }
 })
 
 ```
+--- /task ---
+
+--- task ---
+Keep track of when the mouth is open or closed by adding a `set Mouth closed` to `false`.
 
 ```microbit
+let Mouth_closed = false
 basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_open == false) {
+    if (!(input.pinIsPressed(TouchPin.P1))) {
         basic.showIcon(IconNames.Square)
-        Mouth_open = true
+        Mouth_closed = false
     }
     if (input.pinIsPressed(TouchPin.P1)) {
         basic.showIcon(IconNames.SmallSquare)
-        Mouth_open = false
+        Mouth_closed = true
     }
 })
 ```
+--- /task ---
+
+--- task ---
+In the `on start` block add a `set Mouth closed` to `true` so that the puppet mouth is closed when starting up.
 
 ```microbit
-let Mouth_open = true
+let Mouth_closed = true
+basic.on_start(function () {
+    Mouth_closed = true
+})
 ```
+--- /task ---
 
+--- task ---
+**Test:** See the icon light up differently when the foil is connected or non connected
+--- /task ---
