@@ -25,9 +25,9 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 --- task ---
 ### View serial data
 
-Add a new `forever` block.
+Add a new `forever`{:class='microbitbasic'} block.
 
-Under `Advanced`, drag a `serial write` block.
+Under `Advanced`, drag a `serial write`{:class='microbitserial'} block.
 
 ```microbit
 basic.forever(function () {
@@ -38,7 +38,7 @@ basic.forever(function () {
 
 
 --- task ---
-From the `input - more` menu drag `rotation` into the second field. 
+From the `input - more`{:class='microbitinput'} menu drag `rotation`{:class='microbitinput'} into the second field. 
 
 In the first field type 'rotation'.
 
@@ -61,7 +61,7 @@ Look at how the rotation data changes when you move the puppet.
 
 
 --- task ---
-Record the rotation number for when the puppet is down (in this case it is -38).
+Record the rotation number for when the puppet is down (here it is -38).
 
 ![ALT TEXT](images/rotate-3.png)
 --- /task ---

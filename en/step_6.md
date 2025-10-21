@@ -25,9 +25,11 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 --- task ---
 ### Add card to mouth
 
-Cut out the card to just smaller than the mouth shape.
+Cut out thin card to just smaller than the mouth shape.
 
-The card will be hot if using hot glue, do not touch it. Hold the sock on either side instead. 
+Tape, sew or glue it on the outside of the sock, where the mouth is.
+
+**Warning:** If you are using hot glue, do not touch the card. Hold the sock on either side instead. 
 
 ![ALT TEXT](images/mouth-1.png)
 ![ALT TEXT](images/mouth-2.png)
@@ -38,7 +40,9 @@ The card will be hot if using hot glue, do not touch it. Hold the sock on either
 --- task ---
 ### Attach eyes
 
-Glue on eyes. Buttons, beads, ping-pong balls with black pen work too.
+Glue eyes to the head. 
+
+Googly eyes, buttons, beads, ping-pong balls with black pen all work well.
 
 ![ALT TEXT](images/eye-1.png)
 ![ALT TEXT](images/eye-2.png)

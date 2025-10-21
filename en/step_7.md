@@ -32,7 +32,9 @@ Wrap coloured yarn or string around some scrap card.
 
 
 --- task ---
-Take it off the card and fasten it tighthly in the middle to create two loops.
+Take yarn off the card and fasten it with another bit of yarn.  
+
+Tie it in a knot in the middle of the yarn to create two loops.
 
 ![ALT TEXT](images/hair-3.png)
 ![ALT TEXT](images/hair-4.png)
@@ -49,11 +51,21 @@ Cut the end of each loop.
 --- task ---
 ### Attach and style hair
 
-Glue the yarn in the middle. Again, beign careful if using hot glue - do not touch the glue direclty, press on the yarn.
+Sew or glue the yarn in the middle of the head. 
+
+**Warning:** if using hot glue - do not touch the glue direclty.
 
 Style the hair how you want it.
 
 ![ALT TEXT](images/hair-6.png)
 ![ALT TEXT](images/hair-7.png)
 ![ALT TEXT](images/hair-8.png)
+--- /task ---
+
+--- task ---
+### Style it
+
+Style the hair how you want it.
+
+![ALT TEXT](images/hairstyle.gif)
 --- /task ---

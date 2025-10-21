@@ -40,22 +40,28 @@ Choose a sock that will fit on your arm, colourful or textured socks work well.
 --- task ---
 ### Adding a head
 
-Cut out a semi-circle from a papper cup for your fingers.
-
-Glue onto the mouth piece.
+Cut out a head from a papper cup, and make asemi-circle for your fingers.
 
 ![ALT TEXT](images/make-2.png)
 ![ALT TEXT](images/make-3.png)
+
+--- /task ---
+
+--- task ---
+Tape or glue the head onto the mouth piece, with semi-circle at the back.
+
+**Warning:** If you are using hot glue make sure that it is supervised by a mentor or club leader.
+
 ![ALT TEXT](images/make-3a.png)
 ![ALT TEXT](images/make-3b.png)
 ![ALT TEXT](images/make-5.png)
 
 --- /task ---
 
-**Tip:** If you are using hot glue make sure that it is supervised by a mentor or club leader
+
 
 --- task ---
-Insert into the end of the sock. 
+Insert mouth and head into the sock, and position at the end, where the toes normally go. 
 
 ![ALT TEXT](images/make-6.png)
 ![ALT TEXT](images/make-8.png)

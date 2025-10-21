@@ -25,7 +25,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 --- task ---
 ### Use card for the board
 
-Attach the board to a bit of card with a band.
+Attach the micro:bit board to a bit of cardboard with an elastic band.
 
 ![ALT TEXT](images/attach-2.jpg)
 --- /task ---
@@ -35,7 +35,6 @@ Attach the board to a bit of card with a band.
 
 Coil some of the wires under band on the other side of the card to keep them tidy
 
-![ALT TEXT](images/attach-2a.png)
 ![ALT TEXT](images/attach-3.jpg)
 --- /task ---
 
@@ -45,7 +44,6 @@ Coil some of the wires under band on the other side of the card to keep them tid
 
 Glue or sew the card to the sock.
 
-![ALT TEXT](images/attach-4.jpg)
 ![ALT TEXT](images/attach-7.png)
 ![ALT TEXT](images/attach-8.png)
 --- /task ---

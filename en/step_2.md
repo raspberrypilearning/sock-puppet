@@ -27,9 +27,6 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
 --- /task ---
 
-New to micro:bit?
-[[[makecode-tour]]]
-
 --- task ---
 ### Create your project
 

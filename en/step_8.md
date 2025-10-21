@@ -24,16 +24,16 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 --- task ---
 ### Attach the foil
 
-Glue the foil onto the mouth
---- /task ---
+Glue the foils onto the mouth.
 
+![ALT TEXT](images/switch-0a.png)
+--- /task ---
 
 --- task ---
 ### Clip it
 
-Clip both sides. One with the GND clip and the other with the pin pressed clip
+Clip onto both sides of the foil. One with the `GND` clip and the other with the `pin pressed`{:class='microbitinput'} clip
 
-![ALT TEXT](images/switch-0a.png)
 ![ALT TEXT](images/switch-1.png)
 ![ALT TEXT](images/switch-1a.png)
 ![ALT TEXT](images/switch-3.jpg)

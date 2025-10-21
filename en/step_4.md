@@ -67,9 +67,9 @@ Add `Mouth closed`{:class='microbitvariables'} and `true'{:class='microbitlogic'
 --- task ---
 ### Puppet speech
 
-Drag two `music`{:class='microbitmusic'} blocks and add some sounds.
+Drag two `play tone`{:class='microbitmusic'} blocks.
 
-These will be the happy sounds so make them 1/2 or 1/4 beat and high notes.
+These will be the happy sounds so change them to 1/2 or 1/4 beat and high notes.
 
 ```microbit
 basic.forever(function () {

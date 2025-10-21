@@ -25,16 +25,16 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 --- task ---
 ### Use the rotaion data
 
-Make a new `forever` block, and add a `if else`.
+Make a new `forever`{:class='microbitbasic'} block, and add a `if else`{:class='microbitlogic'}.
 
-Drag a `less than' block from the `logic` menu. Drag in `rotation` and type the number you recorded in the last step.
+Drag a `less than`{:class='microbitlogic'} block from the `logic`{:class='microbitlogic'} menu. Drag in `rotation`{:class='microbitinput'} and type the number you recorded in the last step.
 
 ![ALT TEXT](images/rotate.gif)
 --- /task ---
 
 
 --- task ---
-Add the `play tone`, icon, and `variable` blocks into `if then`.
+Add the `play tone`{:class='microbitmusic'} `show icon`{:class='microbitbasic'}, and `set Mouth closed`{:class='microbitvariables'} blocks into `if then`{:class='microbitlogic'}.
 
 If the rotation is less than -38, then happy sounds will play.
 
@@ -56,9 +56,9 @@ basic.forever(function () {
 --- task ---
 ### Add sad sounds
 
-Add two new `play tone` blocks to the `else`. 
+Add two new `play tone`{:class='microbitmusic'} blocks to the `else`{:class='microbitlogic'}. 
 
-These will be your sad sounds, so make them lower and longer.  
+These will be your sad sounds so make them lower notes, and longer.  
 
 ```microbit
         if (input.rotation(Rotation.Pitch) < -38) {
@@ -83,9 +83,9 @@ These will be your sad sounds, so make them lower and longer.
 --- task ---
 ### Move blocks back
 
-Move the new `if else` back into the `if` block you made earlier. 
+Move the new `if else`{:class='microbitlogic'} back into the `if`{:class='microbitlogic'} block you made earlier. 
 
-This means that the tones play with rotaion and when the mouth is open.
+The tones will play with rotaion, and when the mouth is open.
 
 ![ALT TEXT](images/sad-sounds.gif)
 --- /task ---
@@ -121,5 +121,5 @@ basic.forever(function () {
 
 
 --- task ---
-**Test:** the sad and happy sounds will work when the mouth is open, and at the rotation.
+**Test:** the sad and happy sounds will work when the mouth is open, and with the rotation.
 --- /task ---
