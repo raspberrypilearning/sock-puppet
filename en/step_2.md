@@ -24,9 +24,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 
 
 --- task ---
-
 Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
-
 --- /task ---
 
 New to micro:bit?
@@ -40,13 +38,10 @@ Create and name your project:
 Click on the **New Project** button.
 
 <img src="images/new-project-button.png" alt="The New Project button inside MakeCode." width="250"/>
-
 --- /task ---
 
 --- task ---
-
 Give your new project a name (e.g. 'Sock puppet') and click **Create**.
-
 --- /task ---
 
 
