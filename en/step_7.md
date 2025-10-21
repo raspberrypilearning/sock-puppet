@@ -55,8 +55,6 @@ Sew or glue the yarn in the middle of the head.
 
 **Warning:** if using hot glue - do not touch the glue direclty.
 
-Style the hair how you want it.
-
 ![ALT TEXT](images/hair-6.png)
 ![ALT TEXT](images/hair-7.png)
 ![ALT TEXT](images/hair-8.png)

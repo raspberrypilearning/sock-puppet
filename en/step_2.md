@@ -56,7 +56,9 @@ On the micro:bit, clip one bit of foil to `GND` and the other to `P1`{:class='mi
 
 
 --- task ---
-Plug your micro:bit into your computer. 
+### Plug in the board
+
+Plug the micro:bit into your computer. 
 
 Click download, and the pair button.
 --- /task ---

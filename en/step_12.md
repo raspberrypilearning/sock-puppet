@@ -1,13 +1,13 @@
 ## Challenge
 
 --- task ---
-could two pupept tlk to eachoter (work with someone else?)
+Could two pupept talk to each other? You could work with someone else to do this.
 --- /task ---
 
 --- task ---
-waht other movemnts like about shaking head and noooo sound
+Waht other movements could you use, what about a shaking head with no sound?
 --- /task ---
 
 --- task ---
-sing a song, one note at a time
+Get the puppet to sing a song, one note at a time.
 --- /task ---

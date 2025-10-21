@@ -61,7 +61,9 @@ Look at how the rotation data changes when you move the puppet.
 
 
 --- task ---
-Record the rotation number for when the puppet is down (here it is -38).
+You can see the rotation number below the graph in a list.
+
+Choose a rotation number for when the puppet's head is down. Here it is between -35 and -39, I have chosen -38.
 
 ![ALT TEXT](images/rotate-3.png)
 --- /task ---

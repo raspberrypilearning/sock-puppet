@@ -27,7 +27,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 
 Make a new `forever`{:class='microbitbasic'} block, and add a `if else`{:class='microbitlogic'}.
 
-Drag a `less than`{:class='microbitlogic'} block from the `logic`{:class='microbitlogic'} menu. Drag in `rotation`{:class='microbitinput'} and type the number you recorded in the last step.
+Drag a `less than`{:class='microbitlogic'} block from the `logic`{:class='microbitlogic'} menu. Drag in `rotation`{:class='microbitinput'} and type the number you chose in the last step.
 
 ![ALT TEXT](images/rotate.gif)
 --- /task ---
