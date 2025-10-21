@@ -56,7 +56,7 @@ Click on **Show data Device**, you might need to scroll to see it.
 Look at how the rotation data changes when you move the puppet.
 
 ![ALT TEXT](images/rotate-2.gif)
---- /task
+--- /task ---
 
 
 --- task ---
