@@ -21,15 +21,26 @@ Make a foil switch and add to micro:bit
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
-```microbit
-basic.forever(function () {
-    if (input.rotation(Rotation.Pitch) < -38) {
-    	
-    } else {
-    	
-    }
-})
-```
+
+--- task ---
+### Use the rotaion data
+
+Make a new `forever` block, and add a `if else`.
+
+Drag a `less than' block from the `logic` menu. Drag in `rotation` and type the number you recorded in the last step.
+
+
+![ALT TEXT](images/rotate.gif)
+
+
+--- /task ---
+
+
+--- task ---
+
+Add the `play tone`, icon, and `variable` blocks into `if then`.
+
+If the rotation is less than -38, then happy sounds will play.
 
 ```microbit
 basic.forever(function () {
@@ -44,24 +55,17 @@ basic.forever(function () {
 })
 ```
 
-```microbit
-basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_open == false) {
-        if (input.rotation(Rotation.Pitch) < -38) {
-            music.play(music.tonePlayable(880, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
-            music.play(music.tonePlayable(988, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-            basic.showIcon(IconNames.Square)
-            Mouth_open = true
-        } else {
-        	
-        }
-    }
-})
-```
+--- /task ---
+
+
+--- task ---
+### Add sad sounds
+
+Add two new `play tone` blocks to the `else`. 
+
+These will be your sad sounds, so make them lower and longer.  
 
 ```microbit
-basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1)) && Mouth_open == false) {
         if (input.rotation(Rotation.Pitch) < -38) {
             music.play(music.tonePlayable(880, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
             music.play(music.tonePlayable(988, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
@@ -72,9 +76,29 @@ basic.forever(function () {
             music.play(music.tonePlayable(165, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
             Mouth_open = true
         }
-    }
-})
 ```
+
+--- /task---
+
+--- task ---
+**Test:** check the sad and happy sounds are working when you rotate the puppet.
+--- /task ---
+
+--- task ---
+### Move blocks back
+
+Move the new `if else` back into the `if` block you made earlier. 
+
+This means that the tones play with rotaion and when the mouth is open.
+
+![ALT TEXT](images/sad-sounds.gif)
+
+--- /task ---
+
+--- task ---
+### Check your blocks
+
+Check that you have the blocks in the right order.
 
 ```microbit
 basic.forever(function () {
@@ -97,3 +121,8 @@ basic.forever(function () {
     }
 })
 ```
+--- /task --
+
+--- task ---
+**Test:** the sad and happy sounds will work when the mouth is open, and at the rotation.
+--- /task ---

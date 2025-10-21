@@ -21,15 +21,34 @@ Make a foil switch and add to micro:bit
 
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
---- task ---
-add micro bit etc. to puppet
---- /task ---
 
-add image or diagram of where it should go to get good roation
+--- task ---
+### Use card for the board
+
+Attach the board to a bit of card with a band.
 
 ![ALT TEXT](images/attach-2.jpg)
+--- /task ---
+
+--- task ---
+### Organise the wires
+
+Coil some of the wires under band on the other side of the card to keep them tidy
+
 ![ALT TEXT](images/attach-2a.png)
 ![ALT TEXT](images/attach-3.jpg)
+--- /task ---
+
+
+--- task ---
+### Attach to sock
+
+Glue or sew the card to the sock.
+
 ![ALT TEXT](images/attach-4.jpg)
 ![ALT TEXT](images/attach-7.png)
 ![ALT TEXT](images/attach-8.png)
+--- /task ---
+
+
+

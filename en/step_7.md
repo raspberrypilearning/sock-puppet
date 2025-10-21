@@ -23,15 +23,37 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
 --- task ---
+### Make the hair
 
+Wrap coloured yarn or string around some scrap card. 
+
+![ALT TEXT](images/hair-1.png)
 --- /task ---
 
 
-![ALT TEXT](images/hair-1.png)
-![ALT TEXT](images/hair-2.gif)
+--- task ---
+Take it off the card and fasten it tighthly in the middle to create two loops.
+
 ![ALT TEXT](images/hair-3.png)
 ![ALT TEXT](images/hair-4.png)
+--- /task ---
+
+
+--- task ---
+Cut the end of each loop.
+
 ![ALT TEXT](images/hair-5.png)
+--- /task ---
+
+
+--- task ---
+### Attach and style hair
+
+Glue the yarn in the middle. Again, beign careful if using hot glue - do not touch the glue direclty, press on the yarn.
+
+Style the hair how you want it.
+
 ![ALT TEXT](images/hair-6.png)
 ![ALT TEXT](images/hair-7.png)
 ![ALT TEXT](images/hair-8.png)
+--- /task ---

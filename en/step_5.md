@@ -1,4 +1,4 @@
-## Puppet head
+## Make the puppet
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -23,18 +23,40 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
 --- task ---
+### Make the body
 
-Make puppet
---- /task ---
+Choose a sock that will fit on your arm, colourful or textured socks work well.
 ![ALT TEXT](images/sock-1.jpg)
+--- /task ---
+
+--- task ---
+### Cut out card for the mouth
+
 ![ALT TEXT](images/make-0.jpg)
 ![ALT TEXT](images/make-1.png)
+
+--- /task ---
+
+--- task ---
+### Adding a head
+
+Cut out a semi-circle from a papper cup for your fingers.
+
+Glue onto the mouth piece.
+
 ![ALT TEXT](images/make-2.png)
 ![ALT TEXT](images/make-3.png)
 ![ALT TEXT](images/make-3a.png)
 ![ALT TEXT](images/make-3b.png)
-![ALT TEXT](images/make-4.gif)
 ![ALT TEXT](images/make-5.png)
+
+--- /task ---
+
+**Tip:** If you are using hot glue make sure that it is supervised by a mentor or club leader
+
+--- task ---
+Insert into the end of the sock. 
+
 ![ALT TEXT](images/make-6.png)
 ![ALT TEXT](images/make-8.png)
-
+--- /task ---

@@ -1,4 +1,4 @@
-## Rotate 
+## Change sounds on rotate 
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -21,25 +21,46 @@ Make a foil switch and add to micro:bit
 
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
-add cable (need to make image) also is the final image of the whole thing togheter
 
 --- task ---
+### View serial data
 
-look at accelerometer data in the serial port
---- /task ---
+Add a new `forever` block.
+
+Under `Advanced`, drag a `serial write` block.
 
 ```microbit
 basic.forever(function () {
-    serial.writeValue("rotation", input.rotation(Rotation.Pitch))
+    serial.writeValue("x", 0)
 })
 ```
+--- /task ---
 
-Go to device view
-![ALT TEXT](images/rotate-1.png)
+--- task ---
+From the `input - more` menu drag `rotation` into the second field. 
 
-look at how the graph moves when you move your arms
+In the first field type 'rotation'.
+
+![ALT TEXT](images/rotation.gif)
+--- /task ---
+
+
+--- task ---
+Click on **Show data Device**, you might need to scroll to see it.
+
+![ALT TEXT](images/rotate-1.png) 
+--- /task ---
+
+
+--- task ---
+Look at how the rotation data changes when you move the puppet.
+
 ![ALT TEXT](images/rotate-2.gif)
+--- /task
 
-record the number when down (in this case it is -38)
+
+--- task ---
+Record the rotation number for when the puppet is down (in this case it is -38).
+
 ![ALT TEXT](images/rotate-3.png)
-
+--- /task ---

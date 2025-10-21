@@ -37,11 +37,11 @@ Clip the short leg to `GND` and the longer leg to `PO`{:class='microbitinput'}
 --- task ---
 ### Mouth open blocks
 
-To turn only play the sound once when the mouth is open, replace the `not`{:class='microbitlogic'} with an `and`{:class='microbitlogic'} block from the `logic`{:class='microbitlogic'} menu.
+To only play the sound once when the mouth is open, replace the `not`{:class='microbitlogic'} with an `and`{:class='microbitlogic'} block from the `logic`{:class='microbitlogic'} menu.
 
 ```microbit
 basic.forever(function () {
-    if (() && ()) {
+    if (false && false) {
         basic.showIcon(IconNames.Square)
         Mouth_closed = false
     }
@@ -53,7 +53,7 @@ basic.forever(function () {
 ```
 --- /task ---
 
-**TIP: this stops the sound from repeating when the puppet mouth is open.
+**TIP:** this stops the sound from repeating when the puppet mouth is open.
 
 --- task ---
 Drag the `not`{:class='microbitlogic'} and `Pin pressed`{:class='microbitinput'} blocks back into the first field. In the second add an `equals`{:class='microbitlogic'} block.
@@ -87,7 +87,7 @@ basic.forever(function () {
 })
 ```
 
-If using Micro:bit V2 you could expereiment with the `sound simulator`{:class='microbitmusic'} blocks.
+If using **Micro:bit V2** you could expereiment with the `sound simulator`{:class='microbitmusic'} blocks.
 --- /task ---
 
 

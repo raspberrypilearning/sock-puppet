@@ -1,4 +1,4 @@
-## Make the face
+## Add a mouth and eyes
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -23,18 +23,23 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
 --- task ---
+### Add card to mouth
 
-add features 
---- /task ---
+Cut out the card to just smaller than the mouth shape.
 
+The card will be hot if using hot glue, do not touch it. Hold the sock on either side instead. 
 
 ![ALT TEXT](images/mouth-1.png)
 ![ALT TEXT](images/mouth-2.png)
 ![ALT TEXT](images/mouth-3.png)
+--- /task ---
+
+
+--- task ---
+### Attach eyes
+
+Glue on eyes. Buttons, beads, ping-pong balls with black pen work too.
 
 ![ALT TEXT](images/eye-1.png)
 ![ALT TEXT](images/eye-2.png)
-
-
-
-
+--- /task ---

@@ -22,14 +22,21 @@ Make a foil switch and add to micro:bit
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 --- task ---
+### Attach the foil
 
-add switch to puppet mouth
+Glue the foil onto the mouth
 --- /task ---
 
 
-![ALT TEXT](images/switch-0.png)
+--- task ---
+### Clip it
+
+Clip both sides. One with the GND clip and the other with the pin pressed clip
+
 ![ALT TEXT](images/switch-0a.png)
 ![ALT TEXT](images/switch-1.png)
 ![ALT TEXT](images/switch-1a.png)
-![ALT TEXT](images/switch-2.png)
-![ALT TEXT](images/switch-3.png)
+![ALT TEXT](images/switch-3.jpg)
+--- /task ---
+
+

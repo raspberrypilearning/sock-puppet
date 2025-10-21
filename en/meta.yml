@@ -8,12 +8,12 @@ steps:
   - title: Mouth closed switch
   - title: Open switch 
   - title: Add buzzer
-  - title: Puppet head
-  - title: Make the face
+  - title: Make the puppet
+  - title: Add a mouth and eyes
   - title: Hairstyle
   - title: Embed the switch
   - title: Attach board 
-  - title: Rotate 
+  - title: Change sounds on rotate 
   - title: Add sad sound 
     completion:
       - engaged      
