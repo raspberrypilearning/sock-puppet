@@ -1,4 +1,4 @@
-## Hairstyle
+## Embed the switch
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -21,49 +21,22 @@ Make a foil switch and add to micro:bit
 
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
-
 --- task ---
-### Make the hair
+### Attach the foil
 
-Wrap coloured yarn or string around some scrap card. 
+Glue the foils onto the mouth.
 
-![ALT TEXT](images/hair-1.png)
---- /task ---
-
-
---- task ---
-Take yarn off the card and fasten it with another bit of yarn.  
-
-Tie it in a knot in the middle of the yarn to create two loops.
-
-![ALT TEXT](images/hair-3.png)
-![ALT TEXT](images/hair-4.png)
---- /task ---
-
-
---- task ---
-Cut the end of each loop.
-
-![ALT TEXT](images/hair-5.png)
---- /task ---
-
-
---- task ---
-### Attach and style hair
-
-Sew or glue the yarn in the middle of the head. 
-
-**Warning:** if using hot glue - do not touch the glue direclty.
-
-![ALT TEXT](images/hair-6.png)
-![ALT TEXT](images/hair-7.png)
-![ALT TEXT](images/hair-8.png)
+![ALT TEXT](images/switch-0a.png)
 --- /task ---
 
 --- task ---
-### Style it
+### Clip it
 
-Style the hair how you want it.
+Clip onto both sides of the foil. One with the `GND` clip and the other with the `pin pressed`{:class='microbitinput'} clip
 
-![ALT TEXT](images/hairstyle.gif)
+![ALT TEXT](images/switch-1.png)
+![ALT TEXT](images/switch-1a.png)
+![ALT TEXT](images/switch-3.jpg)
 --- /task ---
+
+

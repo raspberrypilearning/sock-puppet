@@ -1,4 +1,4 @@
-## Change sounds on rotate 
+## Make the puppet
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -23,47 +23,46 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
 --- task ---
-### View serial data
+### Make the body
 
-Add a new `forever`{:class='microbitbasic'} block.
+Choose a sock that will fit on your hand, colourful or textured socks are fun!
+![ALT TEXT](images/sock-1.jpg)
+--- /task ---
 
-Under `Advanced`, drag a `serial write`{:class='microbitserial'} block.
+--- task ---
+### Cut out card for the mouth
 
-```microbit
-basic.forever(function () {
-    serial.writeValue("x", 0)
-})
-```
+![ALT TEXT](images/make-0.jpg)
+![ALT TEXT](images/make-1.png)
+
+--- /task ---
+
+--- task ---
+### Add a head
+
+Cut out a head from a paper cup, and make a semi-circle for your fingers.
+
+![ALT TEXT](images/make-2.png)
+![ALT TEXT](images/make-3.png)
+
+--- /task ---
+
+--- task ---
+Tape or glue the head onto the mouth piece, with semi-circle at the back.
+
+**Warning:** If you are using hot glue make sure that it is supervised by a mentor or club leader.
+
+![ALT TEXT](images/make-3a.png)
+![ALT TEXT](images/make-3b.png)
+![ALT TEXT](images/make-5.png)
+
 --- /task ---
 
 
---- task ---
-From the `input - more`{:class='microbitinput'} menu drag `rotation`{:class='microbitinput'} into the second field. 
-
-In the first field type 'rotation'.
-
-![ALT TEXT](images/rotation.gif)
---- /task ---
-
 
 --- task ---
-Click on **Show data Device**, you might need to scroll to see it.
+Insert mouth and head into the sock, and position at the end, where the toes normally go. 
 
-![ALT TEXT](images/rotate-1.png) 
---- /task ---
-
-
---- task ---
-Look at how the rotation data changes when you move the puppet.
-
-![ALT TEXT](images/rotate-2.gif)
---- /task ---
-
-
---- task ---
-You can see the rotation number below the graph in a list.
-
-Choose a rotation number for when the puppet's head is down. Here it is between -35 and -39, I have chosen -38.
-
-![ALT TEXT](images/rotate-3.png)
+![ALT TEXT](images/make-6.png)
+![ALT TEXT](images/make-8.png)
 --- /task ---

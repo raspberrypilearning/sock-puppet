@@ -1,4 +1,4 @@
-## Add a mouth and eyes
+## Hairstyle
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -23,27 +23,47 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
 --- task ---
-### Add card to mouth
+### Make the hair
 
-Cut out thin card to just smaller than the mouth shape.
+Wrap coloured yarn or string around some scrap card. 
 
-Tape, sew or glue it on the outside of the sock, where the mouth is.
-
-**Warning:** If you are using hot glue, do not touch the card. Hold the sock on either side instead. 
-
-![ALT TEXT](images/mouth-1.png)
-![ALT TEXT](images/mouth-2.png)
-![ALT TEXT](images/mouth-3.png)
+![ALT TEXT](images/hair-1.png)
 --- /task ---
 
 
 --- task ---
-### Attach eyes
+Take yarn off the card and fasten it with another bit of yarn.  
 
-Glue eyes to the head. 
+Tie it in a knot in the middle of the yarn to create two loops.
 
-Googly eyes, buttons, beads, ping-pong balls with black pen all work well.
+![ALT TEXT](images/hair-3.png)
+![ALT TEXT](images/hair-4.png)
+--- /task ---
 
-![ALT TEXT](images/eye-1.png)
-![ALT TEXT](images/eye-2.png)
+
+--- task ---
+Cut the end of each loop.
+
+![ALT TEXT](images/hair-5.png)
+--- /task ---
+
+
+--- task ---
+### Attach and style hair
+
+Sew or glue the yarn in the middle of the head. 
+
+**Warning:** if using hot glue - do not touch the glue direclty.
+
+![ALT TEXT](images/hair-6.png)
+![ALT TEXT](images/hair-7.png)
+![ALT TEXT](images/hair-8.png)
+--- /task ---
+
+--- task ---
+### Style it
+
+Style the hair how you want it.
+
+![ALT TEXT](images/hairstyle.gif)
 --- /task ---

@@ -1,4 +1,4 @@
-## Make the puppet
+## Add a mouth and eyes
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -23,46 +23,27 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
 --- task ---
-### Make the body
+### Add card to mouth
 
-Choose a sock that will fit on your hand, colourful or textured socks are fun!
-![ALT TEXT](images/sock-1.jpg)
---- /task ---
+Cut out thin card to just smaller than the mouth shape.
 
---- task ---
-### Cut out card for the mouth
+Tape, sew or glue it on the outside of the sock, where the mouth is.
 
-![ALT TEXT](images/make-0.jpg)
-![ALT TEXT](images/make-1.png)
+**Warning:** If you are using hot glue, do not touch the card. Hold the sock on either side instead. 
 
---- /task ---
-
---- task ---
-### Add a head
-
-Cut out a head from a paper cup, and make a semi-circle for your fingers.
-
-![ALT TEXT](images/make-2.png)
-![ALT TEXT](images/make-3.png)
-
---- /task ---
-
---- task ---
-Tape or glue the head onto the mouth piece, with semi-circle at the back.
-
-**Warning:** If you are using hot glue make sure that it is supervised by a mentor or club leader.
-
-![ALT TEXT](images/make-3a.png)
-![ALT TEXT](images/make-3b.png)
-![ALT TEXT](images/make-5.png)
-
+![ALT TEXT](images/mouth-1.png)
+![ALT TEXT](images/mouth-2.png)
+![ALT TEXT](images/mouth-3.png)
 --- /task ---
 
 
-
 --- task ---
-Insert mouth and head into the sock, and position at the end, where the toes normally go. 
+### Attach eyes
 
-![ALT TEXT](images/make-6.png)
-![ALT TEXT](images/make-8.png)
+Glue eyes to the head. 
+
+Googly eyes, buttons, beads, ping-pong balls with black pen all work well.
+
+![ALT TEXT](images/eye-1.png)
+![ALT TEXT](images/eye-2.png)
 --- /task ---

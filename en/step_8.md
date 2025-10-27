@@ -1,4 +1,4 @@
-## Embed the switch
+## Attach board 
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -21,22 +21,32 @@ Make a foil switch and add to micro:bit
 
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
+
 --- task ---
-### Attach the foil
+### Use card for the board
 
-Glue the foils onto the mouth.
+Attach the micro:bit board to a bit of cardboard with an elastic band.
 
-![ALT TEXT](images/switch-0a.png)
+![ALT TEXT](images/attach-2.jpg)
 --- /task ---
 
 --- task ---
-### Clip it
+### Organise the wires
 
-Clip onto both sides of the foil. One with the `GND` clip and the other with the `pin pressed`{:class='microbitinput'} clip
+Coil some of the wires under band on the other side of the card to keep them tidy
 
-![ALT TEXT](images/switch-1.png)
-![ALT TEXT](images/switch-1a.png)
-![ALT TEXT](images/switch-3.jpg)
+![ALT TEXT](images/attach-3.jpg)
 --- /task ---
+
+
+--- task ---
+### Attach to sock
+
+Glue or sew the card to the sock.
+
+![ALT TEXT](images/attach-7.png)
+![ALT TEXT](images/attach-8.png)
+--- /task ---
+
 
 
