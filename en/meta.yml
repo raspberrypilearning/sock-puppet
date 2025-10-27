@@ -1,13 +1,12 @@
-title: Interactive sock puppet
+title: Sock puppet
 hero_image: images/banner.png
-description: A short description of the project
+description: Make a puppet make some noise!
 listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Mouth closed switch
-  - title: Open switch 
-  - title: Add buzzer
+  - title: Foil switch
+  - title: Add a buzzer
   - title: Make the puppet
   - title: Add a mouth and eyes
   - title: Hairstyle

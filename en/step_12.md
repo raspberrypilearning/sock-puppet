@@ -11,3 +11,7 @@ Waht other movements could you use, what about a shaking head with no sound?
 --- task ---
 Get the puppet to sing a song, one note at a time.
 --- /task ---
+
+--- task ---
+ADD - RANDOM
+--- /task ---

@@ -1,4 +1,4 @@
-## Mouth closed switch
+## Foil switch
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -28,17 +28,9 @@ Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.or
 --- /task ---
 
 --- task ---
-### Create your project
+### Open the project
 
-Create and name your project: 
-
-Click on the **New Project** button.
-
-<img src="images/new-project-button.png" alt="The New Project button inside MakeCode." width="250"/>
---- /task ---
-
---- task ---
-Give your new project a name (e.g. 'Sock puppet') and click **Create**.
+Open the starter project ADD LINK!!!!!!
 --- /task ---
 
 
@@ -47,11 +39,11 @@ Give your new project a name (e.g. 'Sock puppet') and click **Create**.
 
 The puppet uses a foil switch to detect if the mouth is **open** or **closed**.
 
-![ALT TEXT](images/open-close.gif)
+![Animated gif of foil switch in puppet mouth opening and closing](images/open-close.gif)
 
 On the micro:bit, clip one bit of foil to `GND` and the other to `P1`{:class='microbitinput'}
 
-![ALT TEXT](images/circuit-4.png)
+![Diagram of the microbit circuit - showing a foil switch connceeted with crocodile clips](images/circuit-4.png)
 --- /task ---
 
 
@@ -65,53 +57,35 @@ Click download, and the pair button.
 
 
 --- task ---
-### Add blocks
+### Add the input block
 
-Drag an `if true`{:class='microbitlogic'} block from the `logic`{:class='microbitlogic'}  menu into the `forever`{:class="microbitbasic"} block.
+Drag an `pin released`{:class='microbitinput'} block from the `more input`{:class='microbitinput'} menu. 
+
+In the dropdown menu change the pin to `p1`{:class='microbitinput'}.
 
 ```microbit
-basic.forever(function () {
-    if (true) {
-    	
-    }
+input.onPinReleased(TouchPin.P1, function () {	
+})
+```
+--- /task ---
+
+**Tip:** The `more`{:class='microbitinput'} menu will appear when you click on input.
+![Animated gif of mircobit menu, showing how to find the more input menu, and dragging pin released into the editor](images/released.gif)
+
+
+--- task ---
+Add a `show icon`{:class='microbitbasic'} from the `basic`{:class='microbitbasic'} menu
+
+The icon will show when the foil switch is open.
+
+```microbit
+input.onPinReleased(TouchPin.P1, function () {
+    basic.showIcon(IconNames.Square)
 })
 ```
 --- /task ---
 
 
 --- task ---
-Drag an `Pin is pressed`{:class='microbitinput'} block over `true`{:class='microbitlogic'}, and change to `P1`{:class='microbitinput'} in the dropdown menu.
-
-![ALT TEXT](images/pressed.gif)
---- /task ---
-
-
---- task ---
-Add a `show icon`{:class="microbitbasic"}, and choose small square from the menu. 
-
-If the two bits of foil are pressed together, the icon shows.
-
-![ALT TEXT](images/icon.gif)
---- /task ---
-
-
---- task ---
-To track when the mouth is open and closed make a new `variable`{:class='microbitvariables'} called 'Mouth closed'.
-
-Add a `set Mouth closed`{:class='microbitvariables'} block, and from the `logic`{:class='microbitlogic'} menu add a `true`{:class='microbitlogic'} block.
-
-```microbit
-let Mouth_closed = false
-basic.forever(function () {
-    if (input.pinIsPressed(TouchPin.P1)) {
-        basic.showIcon(IconNames.SmallSquare)
-        Mouth_closed = true
-    }
-})
-```
---- /task ---
-
-
---- task ---
-**Test:** hold the two foil bits together and see the icon light up.
+**Test:** hold the two foil bits together and see the icon show when they are released.
 --- /task ---

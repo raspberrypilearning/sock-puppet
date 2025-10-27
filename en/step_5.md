@@ -25,7 +25,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 --- task ---
 ### Make the body
 
-Choose a sock that will fit on your arm, colourful or textured socks work well.
+Choose a sock that will fit on your hand, colourful or textured socks are fun!
 ![ALT TEXT](images/sock-1.jpg)
 --- /task ---
 
@@ -38,9 +38,9 @@ Choose a sock that will fit on your arm, colourful or textured socks work well.
 --- /task ---
 
 --- task ---
-### Adding a head
+### Add a head
 
-Cut out a head from a papper cup, and make a semi-circle for your fingers.
+Cut out a head from a paper cup, and make a semi-circle for your fingers.
 
 ![ALT TEXT](images/make-2.png)
 ![ALT TEXT](images/make-3.png)

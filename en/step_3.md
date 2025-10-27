@@ -1,8 +1,8 @@
-## Open switch 
+## Add a buzzer
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add blocks for when puppet mouth is open, and **not** pressed
+Add a buzzer to make some noise!
 </div>
 <div>
 
@@ -22,93 +22,34 @@ Add blocks for when puppet mouth is open, and **not** pressed
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
+
 --- task ---
-### Use a **not** block
+### Add a buzzer to the micro:bit board
 
-When the puppet mouth is open the foil is seperated, and `not`{:class='microbitlogic'} pressed.
+If you are using a **micro:bit V2** you can use the internal buzzer, skip this task.
 
-![ALT TEXT](images/open.png)
+Clip the short leg to `GND` and the longer leg to `PO`{:class='microbitinput'}.
 
-In a new `if`{:class='microbitlogic'} block and drag a `not`{:class='microbitlogic'}
-
-```microbit
-let Mouth_closed = false
-basic.forever(function () {
-    if (!(false)) {
-    	
-    }
-    if (input.pinIsPressed(TouchPin.P1)) {
-        basic.showIcon(IconNames.SmallSquare)
-        Mouth_closed = true
-    }
-})
-```
+![Diagram that shows a microbit circuit. It shows foil and a buzzer attached with crocdile clips](images/circuit-3.png)
 --- /task ---
 
-
 --- task ---
-Add a `Pin is pressed`{:class='microbitinput'} block, and change to `P1`{:class='microbitinput'}. 
+### Puppet speech
 
-```microbit
-let Mouth_closed = false
-basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1))) {
-    	
-    }
-    if (input.pinIsPressed(TouchPin.P1)) {
-        basic.showIcon(IconNames.SmallSquare)
-        Mouth_closed = true
-    }
-})
-```
+We have made a fun sound menu for this project called Puppet! It's full of sounds that you can use for your project.
+
+Drag the `play`{:class='microbitfunctions'} block from the `puppet` {:class='microbitfunctions'} into the pin realeased block. 
+
+![Make:code blocks showing the puppet library menu](images/puppet-sound.png)
+
+![Make:code blocks - play "hello" inside a pin 1 release block](images/play.png)
 --- /task ---
 
-
 --- task ---
-Add a large square icon from the `basic`{:class='microbitbasic'} menu
-```microbit
-let Mouth_closed = false
-basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1))) {
-        basic.showIcon(IconNames.Square)
-    }
-    if (input.pinIsPressed(TouchPin.P1)) {
-        basic.showIcon(IconNames.SmallSquare)
-        Mouth_closed = true
-    }
-})
-```
+**Test:** use the foil switch to test the sound. Close the swtich by pressing the two foil bits together. Check the buzzer makes a sound when they are released.
+
 --- /task ---
 
-
 --- task ---
-Keep track of when the mouth is open or closed by adding `set Mouth closed`{:class='microbitvariables'} as `false`{:class='microbitlogic'}.
-
-```microbit
-let Mouth_closed = false
-basic.forever(function () {
-    if (!(input.pinIsPressed(TouchPin.P1))) {
-        basic.showIcon(IconNames.Square)
-        Mouth_closed = false
-    }
-    if (input.pinIsPressed(TouchPin.P1)) {
-        basic.showIcon(IconNames.SmallSquare)
-        Mouth_closed = true
-    }
-})
-```
---- /task ---
-
-
---- task ---
-In the `on start`{:class='microbitbasic'} block add `set Mouth closed`{:class='microbitvariables'} as `true`{:class='microbitlogic'} so that the puppet mouth is closed when starting up.
-
-```microbit
-let Mouth_closed = true
-```
---- /task ---
-
-
---- task ---
-**Test:** see the icon light up differently when the foil is pressed or not pressed.
+**Experiment:** change the sounds in the Puppet dropdown menu, and try a few sounds and choose one for your puppet.
 --- /task ---
