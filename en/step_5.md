@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make a foil switch and add to micro:bit 
+Bring it to life with card for a mouth and beads or googly eyes.
 </div>
 <div>
 

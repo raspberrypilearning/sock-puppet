@@ -22,15 +22,10 @@ Make a foil switch and add to the micro:bit
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
-
---- task ---
-Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
---- /task ---
-
 --- task ---
 ### Open the project
 
-Open the starter project ADD LINK!!!!!!
+Open the starter project at [makecode.microbit.org](https://rpf.io/sock-puppet){:target="_blank"}.
 --- /task ---
 
 
@@ -41,7 +36,7 @@ The puppet uses a foil switch to detect if the mouth is **open** or **closed**.
 
 ![Animated gif of foil switch in puppet mouth opening and closing](images/open-close.gif)
 
-On the micro:bit, clip one bit of foil to `GND` and the other to `P1`{:class='microbitinput'}
+Clip the foil to the Micro:bit to create the switch. One bit of foil is connected to `GND` and the other to `P1`{:class='microbitinput'}
 
 ![Diagram of the microbit circuit - showing a foil switch connceeted with crocodile clips](images/circuit-4.png)
 --- /task ---
@@ -50,16 +45,16 @@ On the micro:bit, clip one bit of foil to `GND` and the other to `P1`{:class='mi
 --- task ---
 ### Plug in the board
 
-Plug the micro:bit into your computer. 
+Plug the Micro:bit into your computer with the USB cable. 
 
-Click download, and the pair button.
+Click download, and pair the Micro:bit with your computer.
 --- /task ---
 
 
 --- task ---
 ### Add the input block
 
-Drag an `pin released`{:class='microbitinput'} block from the `more input`{:class='microbitinput'} menu. 
+Drag a `pin released`{:class='microbitinput'} block from the `more input`{:class='microbitinput'} menu. 
 
 In the dropdown menu change the pin to `p1`{:class='microbitinput'}.
 
@@ -69,7 +64,8 @@ input.onPinReleased(TouchPin.P1, function () {
 ```
 --- /task ---
 
-**Tip:** The `more`{:class='microbitinput'} menu will appear when you click on input.
+**Tip:** The `more input`{:class='microbitinput'} menu is hidden, and will appear when you click on input.
+
 ![Animated gif of mircobit menu, showing how to find the more input menu, and dragging pin released into the editor](images/released.gif)
 
 
@@ -87,5 +83,5 @@ input.onPinReleased(TouchPin.P1, function () {
 
 
 --- task ---
-**Test:** hold the two foil bits together and see the icon show when they are released.
+**Test:** connect the two foil bits together and see the icon show when they are released.
 --- /task ---

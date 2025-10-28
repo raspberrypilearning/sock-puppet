@@ -33,23 +33,21 @@ Clip the short leg to `GND` and the longer leg to `PO`{:class='microbitinput'}.
 ![Diagram that shows a microbit circuit. It shows foil and a buzzer attached with crocdile clips](images/circuit-3.png)
 --- /task ---
 
---- task ---
-### Puppet speech
-
 We have made a fun sound menu for this project called Puppet! It's full of sounds that you can use for your project.
-
-Drag the `play`{:class='microbitfunctions'} block from the `puppet` {:class='microbitfunctions'} into the pin realeased block. 
 
 ![Make:code blocks showing the puppet library menu](images/puppet-sound.png)
 
-![Make:code blocks - play "hello" inside a pin 1 release block](images/play.png)
+--- task ---
+### Puppet speech
+Drag the `play`{:class='microbitfunctions'} block from the `Puppet`{:class='microbitfunctions'} into the pin realeased block. 
+
+![Make:code blocks - play "hello" inside the pin release block](images/play.png)
 --- /task ---
 
 --- task ---
-**Test:** use the foil switch to test the sound. Close the swtich by pressing the two foil bits together. Check the buzzer makes a sound when they are released.
-
+**Test:** Connect the foil swtich by pressing the two foil bits together. Check the buzzer makes a sound when they are released.
 --- /task ---
 
 --- task ---
-**Experiment:** change the sounds in the Puppet dropdown menu, and try a few sounds and choose one for your puppet.
+**Experiment:** change the `Puppet`{:class='microbitfunctions'} sounds in the dropdown menu, and try a few sounds and choose one for your puppet.
 --- /task ---

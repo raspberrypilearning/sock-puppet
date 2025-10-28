@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make a foil switch and add to micro:bit 
+Add the foil switch to the mouth.
 </div>
 <div>
 

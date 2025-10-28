@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make a foil switch and add to micro:bit 
+Put the Micro:bit and wires on the back
 </div>
 <div>
 
@@ -25,7 +25,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 --- task ---
 ### Use card for the board
 
-Attach the micro:bit board to a bit of cardboard with an elastic band.
+Attach the Micro:bit board to a bit of cardboard with an elastic or hairband.
 
 ![ALT TEXT](images/attach-2.jpg)
 --- /task ---
@@ -33,7 +33,7 @@ Attach the micro:bit board to a bit of cardboard with an elastic band.
 --- task ---
 ### Organise the wires
 
-Coil some of the wires under band on the other side of the card to keep them tidy
+Tuck some of the wires under the band on the other side of the card to keep them tidy
 
 ![ALT TEXT](images/attach-3.jpg)
 --- /task ---
@@ -42,7 +42,7 @@ Coil some of the wires under band on the other side of the card to keep them tid
 --- task ---
 ### Attach to sock
 
-Glue or sew the card to the sock.
+Glue, sew or tape the card to the sock.
 
 ![ALT TEXT](images/attach-7.png)
 ![ALT TEXT](images/attach-8.png)

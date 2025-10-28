@@ -1,8 +1,7 @@
-## Change sounds on rotate 
-
+## Challenge! Sound and gestures
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make a foil switch and add to micro:bit 
+Give your puppet more character when it moves.
 </div>
 <div>
 
@@ -22,48 +21,56 @@ Make a foil switch and add to micro:bit
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
+
 --- task ---
-### View serial data
+### Add a gesture
 
-Add a new `forever`{:class='microbitbasic'} block.
+Remove the `Play`{:class='microbitfunctions'} block and add an `if else`{:class='microbitlogic'} block from the `logic`{:class='microbitinput'} menu. 
 
-Under `Advanced`, drag a `serial write`{:class='microbitserial'} block.
-
-```microbit
-basic.forever(function () {
-    serial.writeValue("x", 0)
-})
-```
+![Microbit blocks - showing the if else block inside a pi released](images/challenge-1.png)
 --- /task ---
 
 
 --- task ---
-From the `input - more`{:class='microbitinput'} menu drag `rotation`{:class='microbitinput'} into the second field. 
+👀 Look at which way up your Micro:bit is on the puppet. If the Microbit is facing down, you can use the `logo down gesture`{:class='microbitinput'} block to trigger the sound in the next step.
 
-In the first field type 'rotation'.
+**Tip:** if the Micro:bit is a differnt way up, experiment with some of the other gestures.
 
-![ALT TEXT](images/rotation.gif)
+![Showing the Micro:bit on the back of the sock puppet, with an arrow illustraitng how the Micro:bit is facing down](images/down.png)
+--- /task ---
+
+
+
+
+--- task ---
+Drag the `logo shake gesture`{:class='microbitinput'} block next to the `if` {:class='microbitlogic'}. 
+
+Choose `logo down`{:class='microbitinput'} from the dropdown menu, or a different gesture that works for your puppet. 
+
+![Animated gif of a Make code gesture input blocks](images/challenge-2.gif)
+
+--- /task ---
+
+--- task ---
+Add the `play HELLO`{:class='microbitfunctions'} block into the top of the `if`{:class='microbitlogic'} block. 
+
+This will play the "hello" sound when the puppet is up.
+
+![Make code gesture input blocks and a play block inside a if](images/challenge-3.png)
+
 --- /task ---
 
 
 --- task ---
-Click on **Show data Device**, you might need to scroll to see it.
+Add a new `play`{:class='microbitfunctions'} block from the Puppet{:class='microbitfunctions'} menu into the `else`{:class='microbitlogic'} part of the block, and choose the `ohh`{:class='microbitfunctions'} sound.
 
-![ALT TEXT](images/rotate-1.png) 
+This will make a sad sound when the puppet is down.
+
+![Make code gesture input blocks and a play block inside a if with another play block in the else](images/challenge-4.png)
+
 --- /task ---
-
 
 --- task ---
-Look at how the rotation data changes when you move the puppet.
-
-![ALT TEXT](images/rotate-2.gif)
+**Test:** check the sad and happy sounds are working when you rotate the puppet and open the mouth.
 --- /task ---
 
-
---- task ---
-You can see the rotation number below the graph in a list.
-
-Choose a rotation number for when the puppet's head is down. Here it is between -35 and -39, I have chosen -38.
-
-![ALT TEXT](images/rotate-3.png)
---- /task ---

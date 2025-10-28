@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make a foil switch and add to micro:bit 
+Give your puppet a hairdo!
 </div>
 <div>
 
@@ -51,9 +51,9 @@ Cut the end of each loop.
 --- task ---
 ### Attach and style hair
 
-Sew or glue the yarn in the middle of the head. 
+Sew, tape or glue the yarn in the middle of the head. 
 
-**Warning:** if using hot glue - do not touch the glue direclty.
+**Warning:** if using hot glue - do not touch the glue directly.
 
 ![ALT TEXT](images/hair-6.png)
 ![ALT TEXT](images/hair-7.png)
