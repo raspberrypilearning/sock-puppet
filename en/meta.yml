@@ -12,11 +12,10 @@ steps:
   - title: Hairstyle
   - title: Embed the switch
   - title: Attach board 
-  - title: Change sounds on rotate 
-  - title: Add sad sound 
+  - title: Challenge! Sound and gestures
     completion:
       - engaged      
-  - title: Challenge
+  - title: More Challenges!
     challenge: true
     completion:
       - external
