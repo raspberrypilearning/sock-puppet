@@ -43,7 +43,7 @@ Remove the `Play`{:class='microbitfunctions'} block and add an `if else`{:class=
 
 
 --- task ---
-Drag the `logo shake gesture`{:class='microbitinput'} block next to the `if` {:class='microbitlogic'}. 
+Drag the `logo shake gesture`{:class='microbitinput'} block next to the `if`{:class='microbitlogic'}. 
 
 Choose `logo down`{:class='microbitinput'} from the dropdown menu, or a different gesture that works for your puppet. 
 
@@ -62,7 +62,7 @@ This will play the "hello" sound when the puppet is up.
 
 
 --- task ---
-Add a new `play`{:class='microbitfunctions'} block from the Puppet{:class='microbitfunctions'} menu into the `else`{:class='microbitlogic'} part of the block, and choose the `ohh`{:class='microbitfunctions'} sound.
+Add a new `play`{:class='microbitfunctions'} block from the `Puppet`{:class='microbitfunctions'} menu into the `else`{:class='microbitlogic'} part of the block, and choose the `OHH`{:class='microbitfunctions'} sound.
 
 This will make a sad sound when the puppet is down.
 
