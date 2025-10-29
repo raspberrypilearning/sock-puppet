@@ -30,18 +30,18 @@ If you are using a **micro:bit V2** you can use the internal buzzer, skip this t
 
 Clip the short leg to `GND` and the longer leg to `PO`{:class='microbitinput'}.
 
-![Diagram that shows a microbit circuit. It shows foil and a buzzer attached with crocdile clips](images/circuit-3.png)
+![Diagram that shows a microbit circuit. It shows foil and a buzzer attached with crocdile clips](images/circuit-3.png){:width="500px"}
 --- /task ---
 
 We have made a fun sound menu for this project called Puppet! It's full of sounds that you can use for your project.
 
-![Make:code blocks showing the puppet library menu](images/puppet-sound.png)
+![Make:code blocks showing the puppet library menu](images/puppet-sound.png){:width="500px"}
 
 --- task ---
 ### Puppet speech
 Drag the `play`{:class='microbitfunctions'} block from the `Puppet`{:class='microbitfunctions'} into the pin realeased block. 
 
-![Make:code blocks - play "hello" inside the pin release block](images/play.png)
+![Make:code blocks - play "hello" inside the pin release block](images/play.png){:width="300px"}
 --- /task ---
 
 --- task ---

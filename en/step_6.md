@@ -27,7 +27,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 
 Wrap coloured yarn or string around some scrap card. 
 
-![ALT TEXT](images/hair-1.png)
+![Yarn wrapped aorund card](images/hair-1.png){:width="500px"}
 --- /task ---
 
 
@@ -36,15 +36,15 @@ Take yarn off the card and fasten it with another bit of yarn.
 
 Tie it in a knot in the middle of the yarn to create two loops.
 
-![ALT TEXT](images/hair-3.png)
-![ALT TEXT](images/hair-4.png)
+![Yarn wrapped into a loop](images/hair-3.png){:width="500px"}
+![Tying a knot in the middle of the loop](images/hair-4.png){:width="500px"}
 --- /task ---
 
 
 --- task ---
 Cut the end of each loop.
 
-![ALT TEXT](images/hair-5.png)
+![Cutting the yarn loops](images/hair-5.png){:width="500px"}
 --- /task ---
 
 
@@ -55,9 +55,9 @@ Sew, tape or glue the yarn in the middle of the head.
 
 **Warning:** if using hot glue - do not touch the glue directly.
 
-![ALT TEXT](images/hair-6.png)
-![ALT TEXT](images/hair-7.png)
-![ALT TEXT](images/hair-8.png)
+![Gluing the head of the puppet](images/hair-6.png){:width="500px"}
+![Pressing down hair to fix onto glue](images/hair-7.png){:width="500px"}
+![Puppet with pink hair](images/hair-8.png){:width="500px"}
 --- /task ---
 
 --- task ---
@@ -65,5 +65,5 @@ Sew, tape or glue the yarn in the middle of the head.
 
 Style the hair how you want it.
 
-![ALT TEXT](images/hairstyle.gif)
+![Animated gif of pink hair being styled on a sock puppet. The puppet is a green textured sock puppet with googley eyes.](images/hairstyle.gif)
 --- /task ---

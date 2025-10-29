@@ -15,7 +15,7 @@ steps:
   - title: Challenge! Sound and gestures
     completion:
       - engaged      
-  - title: More Challenges!
+  - title: More challenges!
     challenge: true
     completion:
       - external

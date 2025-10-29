@@ -26,14 +26,14 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 ### Make the body
 
 Choose a sock that will fit on your hand, colourful or textured socks are fun!
-![ALT TEXT](images/sock-1.jpg)
+![Image of a green textured sock](images/sock-1.jpg){:width="500px"}
 --- /task ---
 
 --- task ---
 ### Cut out card for the mouth
 
-![ALT TEXT](images/make-0.jpg)
-![ALT TEXT](images/make-1.png)
+![Image of a card on top of green textured sock](images/make-0.jpg){:width="500px"}
+![Image of a an oval shape being cut out of card](images/make-1.png){:width="500px"}
 
 --- /task ---
 
@@ -42,8 +42,8 @@ Choose a sock that will fit on your hand, colourful or textured socks are fun!
 
 Cut out a head from a paper cup, and make a semi-circle for your fingers.
 
-![ALT TEXT](images/make-2.png)
-![ALT TEXT](images/make-3.png)
+![Cutting a shape out of a paper cup](images/make-2.png){:width="500px"}
+![a semicircle cut out of a paper cup](images/make-3.png){:width="500px"}
 
 --- /task ---
 
@@ -52,9 +52,9 @@ Tape or glue the head onto the mouth piece, with semi-circle at the back.
 
 **Warning:** If you are using hot glue make sure that it is supervised by a mentor or club leader.
 
-![ALT TEXT](images/make-3a.png)
-![ALT TEXT](images/make-3b.png)
-![ALT TEXT](images/make-5.png)
+![Gluing paper cup and card together](images/make-3a.png){:width="500px"}
+![Holding paper cup and card in place while being glued](images/make-3b.png){:width="500px"}
+![Holding paper cup and card in place while being glued from a side angle](images/make-5.png){:width="500px"}
 
 --- /task ---
 
@@ -63,6 +63,8 @@ Tape or glue the head onto the mouth piece, with semi-circle at the back.
 --- task ---
 Insert mouth and head into the sock, and position at the end, where the toes normally go. 
 
-![ALT TEXT](images/make-6.png)
-![ALT TEXT](images/make-8.png)
+**Tip:** roll the sock up before you stretch it over the cup.
+
+![Stretching sock over cup](images/make-6.png){:width="500px"}
+![Cup and card embedded in the sock](images/make-8.png){:width="500px"}
 --- /task ---

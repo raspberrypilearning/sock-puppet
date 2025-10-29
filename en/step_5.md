@@ -31,9 +31,9 @@ Tape, sew or glue it on the outside of the sock, where the mouth is.
 
 **Warning:** If you are using hot glue, do not touch the card. Hold the sock on either side instead. 
 
-![ALT TEXT](images/mouth-1.png)
-![ALT TEXT](images/mouth-2.png)
-![ALT TEXT](images/mouth-3.png)
+![Cutting out a mouth in red card](images/mouth-1.png){:width="500px"}
+![Gluing mouth](images/mouth-2.png){:width="500px"}
+![Holding mouth for the glue to set](images/mouth-3.png){:width="500px"}
 --- /task ---
 
 
@@ -44,6 +44,6 @@ Glue eyes to the head.
 
 Googly eyes, buttons, beads, ping-pong balls with black pen all work well.
 
-![ALT TEXT](images/eye-1.png)
-![ALT TEXT](images/eye-2.png)
+![Gluing on an eye, there is one eye already fixed](images/eye-1.png){:width="500px"}
+![Holding the eye, ready to attach it](images/eye-2.png){:width="500px"}
 --- /task ---

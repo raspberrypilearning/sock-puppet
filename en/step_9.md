@@ -27,7 +27,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 
 Remove the `Play`{:class='microbitfunctions'} block and add an `if else`{:class='microbitlogic'} block from the `logic`{:class='microbitinput'} menu. 
 
-![Microbit blocks - showing the if else block inside a pi released](images/challenge-1.png)
+![Microbit blocks - showing the if else block inside a pi released](images/challenge-1.png){:width="500px"}
 --- /task ---
 
 
@@ -36,7 +36,7 @@ Remove the `Play`{:class='microbitfunctions'} block and add an `if else`{:class=
 
 **Tip:** if the Micro:bit is a differnt way up, experiment with some of the other gestures.
 
-![Showing the Micro:bit on the back of the sock puppet, with an arrow illustraitng how the Micro:bit is facing down](images/down.png)
+![Showing the Micro:bit on the back of the sock puppet, with an arrow illustraitng how the Micro:bit is facing down](images/down.png){:width="300px"}
 --- /task ---
 
 
@@ -47,7 +47,7 @@ Drag the `logo shake gesture`{:class='microbitinput'} block next to the `if` {:c
 
 Choose `logo down`{:class='microbitinput'} from the dropdown menu, or a different gesture that works for your puppet. 
 
-![Animated gif of a Make code gesture input blocks](images/challenge-2.gif)
+![Animated gif of a Make code gesture input blocks](images/challenge-2.gif){:width="300px"}
 
 --- /task ---
 
@@ -56,7 +56,7 @@ Add the `play HELLO`{:class='microbitfunctions'} block into the top of the `if`{
 
 This will play the "hello" sound when the puppet is up.
 
-![Make code gesture input blocks and a play block inside a if](images/challenge-3.png)
+![Make code gesture input blocks and a play block inside a if](images/challenge-3.png){:width="300px"}
 
 --- /task ---
 
@@ -66,7 +66,7 @@ Add a new `play`{:class='microbitfunctions'} block from the Puppet{:class='micro
 
 This will make a sad sound when the puppet is down.
 
-![Make code gesture input blocks and a play block inside a if with another play block in the else](images/challenge-4.png)
+![Make code gesture input blocks and a play block inside a if with another play block in the else](images/challenge-4.png){:width="300px"}
 
 --- /task ---
 

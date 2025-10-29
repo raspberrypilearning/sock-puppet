@@ -27,7 +27,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 
 Attach the Micro:bit board to a bit of cardboard with an elastic or hairband.
 
-![ALT TEXT](images/attach-2.jpg)
+![Micro:bit attached to card with a hairband](images/attach-2.jpg){:width="500px"}
 --- /task ---
 
 --- task ---
@@ -35,7 +35,7 @@ Attach the Micro:bit board to a bit of cardboard with an elastic or hairband.
 
 Tuck some of the wires under the band on the other side of the card to keep them tidy
 
-![ALT TEXT](images/attach-3.jpg)
+![Wires on a bit of card tucked into a hairband](images/attach-3.jpg){:width="500px"}
 --- /task ---
 
 
@@ -44,8 +44,8 @@ Tuck some of the wires under the band on the other side of the card to keep them
 
 Glue, sew or tape the card to the sock.
 
-![ALT TEXT](images/attach-7.png)
-![ALT TEXT](images/attach-8.png)
+![Side view of Micro:bit and wires attached to sock puppet](images/attach-7.png){:width="500px"}
+![Front view of Micro:bit and wires attached to sock puppet](images/attach-8.png){:width="500px"}
 --- /task ---
 
 
