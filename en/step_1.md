@@ -30,4 +30,4 @@ Make a sock puppet that makes cute sounds! Here is a video of the puppet in acti
 - alumninum foil
 - active buzzer (optional if using a Microbit V2)
 
-![Image of the circuit parts for making a sock puppet](images/parts-4.png){:width="300px"}
+![Image of the circuit parts for making a sock puppet](images/parts-4.png){:width="450px"}

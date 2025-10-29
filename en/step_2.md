@@ -38,7 +38,7 @@ The puppet uses a foil switch to detect if the mouth is **open** or **closed**.
 
 Clip the foil to the Micro:bit to create the switch. One bit of foil is connected to `GND` and the other to `P1`{:class='microbitinput'}
 
-![Diagram of the microbit circuit - showing a foil switch connceeted with crocodile clips](images/circuit-4.png){:width="300px"}
+![Diagram of the microbit circuit - showing a foil switch connceeted with crocodile clips](images/circuit-4.png){:width="400px"}
 --- /task ---
 
 
@@ -66,7 +66,7 @@ input.onPinReleased(TouchPin.P1, function () {
 
 **Tip:** The `more input`{:class='microbitinput'} menu is hidden, and will appear when you click on input.
 
-![Animated gif of mircobit menu, showing how to find the more input menu, and dragging pin released into the editor](images/released.gif){:width="300px"}
+![Animated gif of mircobit menu, showing how to find the more input menu, and dragging pin released into the editor](images/released.gif){:width="400px"}
 
 
 --- task ---
