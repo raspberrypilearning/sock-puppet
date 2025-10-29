@@ -56,7 +56,7 @@ Click download, and pair the Micro:bit with your computer.
 
 Drag a `pin released`{:class='microbitinput'} block from the `more input`{:class='microbitinput'} menu. 
 
-In the dropdown menu change the pin to `p1`{:class='microbitinput'}.
+In the dropdown menu change the pin to `P1`{:class='microbitinput'}.
 
 ```microbit
 input.onPinReleased(TouchPin.P1, function () {	

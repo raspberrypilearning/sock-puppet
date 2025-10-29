@@ -9,7 +9,7 @@ Get the puppet to sing a song, one note at a time.
 --- /task ---
 
 --- task ---
-Try using `pick random`{:class='microbitmath'} from the `Math`{:class='microbitmath'} menu and the `Choose`{:class='microbitfunctions'} block from `Puppet`{:class='microbitfunctions'} menu.
+Can your puppet make random noises? Try using `pick random`{:class='microbitmath'} from the `Math`{:class='microbitmath'} menu and the `choose sound`{:class='microbitfunctions'} block from `Puppet`{:class='microbitfunctions'} menu.
 --- /task ---
 
 --- task ---
