@@ -19,15 +19,15 @@ Make a sock puppet that makes cute sounds! Here is a video of the puppet in acti
 - a paper cup
 - yarn or fabric for hair
 - hairband or elastic band
-- Googly eyes (optional - but highly recommended!)
+- googly eyes (optional - but highly recommended!)
 - scissors
 - glue or tape
 
 **For the circuit**
 - Microbit and USB cable
-- [Starter project](https://rpf.io/sock-puppet){:target="_blank"}.
+- the [starter project](https://rpf.io/sock-puppet){:target="_blank"}
 - crocodile clips
 - alumninum foil
 - active buzzer (optional if using a Microbit V2)
 
-![Image of the circuit parts for making a sock puppet](images/parts-4.png)
+![Image of the circuit parts for making a sock puppet](images/parts-4.png){:width="300px"}
