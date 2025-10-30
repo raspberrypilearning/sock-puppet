@@ -24,7 +24,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 
 
 --- task ---
-### Add a buzzer to the micro:bit board
+### Add a buzzer to the micro:bit
 
 If you are using a **micro:bit V2** you can use the internal buzzer, skip this task.
 
@@ -33,7 +33,7 @@ Clip the short leg to `GND` and the longer leg to `PO`{:class='microbitinput'}.
 ![Diagram that shows a microbit circuit. It shows foil and a buzzer attached with crocdile clips](images/circuit-3.png){:width="500px"}
 --- /task ---
 
-**Did you know?!** We have made a custom 🔈**sound** menu for this project called `Puppet`{:class='microbitfunctions'}! It's full of sounds that you can use for your project.
+We have used a custom **🎵 sound** menu for this project called `Puppet`{:class='microbitfunctions'}! It's full of sounds that you can use for your project.
 
 ![Make:code blocks showing the puppet library menu](images/puppet-sound.png){:width="500px"}
 
@@ -41,7 +41,7 @@ Clip the short leg to `GND` and the longer leg to `PO`{:class='microbitinput'}.
 ### Puppet speech
 Remove the `show icon`{:class='microbitbasic'} block.
 
-Drag the `play`{:class='microbitfunctions'} block from the `Puppet`{:class='microbitfunctions'} into the pin realeased block. 
+Drag the `play`{:class='microbitfunctions'} block from the `Puppet`{:class='microbitfunctions'} menu into the pin realeased block. 
 
 ![Make:code blocks - play "hello" inside the pin release block](images/play.png){:width="300px"}
 --- /task ---

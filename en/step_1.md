@@ -24,10 +24,9 @@ Make a sock puppet that makes cute sounds! Here is a video of the puppet in acti
 - glue or tape
 
 **For the circuit**
-- Microbit and USB cable
-- the [starter project](https://rpf.io/sock-puppet){:target="_blank"}
+- Micro:bit and USB cable
 - crocodile clips
-- alumninum foil
+- aluminium foil
 - active buzzer (optional if using a Microbit V2)
 
 ![Image of the circuit parts for making a sock puppet](images/parts-4.png){:width="500px"}

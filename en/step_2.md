@@ -25,7 +25,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 --- task ---
 ### Open the project
 
-Open the starter project at [makecode.microbit.org](https://rpf.io/sock-puppet){:target="_blank"}.
+Open the starter project at [rpf.io/sock-puppet](https://rpf.io/sock-puppet){:target="_blank"}.
 --- /task ---
 
 
@@ -36,7 +36,7 @@ The puppet uses a foil switch to detect if the mouth is **open** or **closed**.
 
 ![Animated gif of foil switch in puppet mouth opening and closing](images/open-close.gif)
 
-Clip the foil to the Micro:bit to create the switch. One bit of foil is connected to `GND` and the other to `P1`{:class='microbitinput'}
+Clip the foil to the Micro:bit to create the switch. One bit of foil is connected to `GND` and the other to `P1`{:class='microbitinput'}. When the foil pieces touch, it completes the circuit.
 
 ![Diagram of the microbit circuit - showing a foil switch connceeted with crocodile clips](images/circuit-4.png){:width="500px"}
 --- /task ---
@@ -45,7 +45,7 @@ Clip the foil to the Micro:bit to create the switch. One bit of foil is connecte
 --- task ---
 ### Plug in the board
 
-Plug the Micro:bit into your computer with the USB cable. 
+Connect the micro:bit to your computer with the USB cable. 
 
 Click download, and pair the Micro:bit with your computer.
 --- /task ---

@@ -13,5 +13,5 @@ Can your puppet make random noises? Try using `pick random`{:class='microbitmath
 --- /task ---
 
 --- task ---
-Could two puppets talk to eachother? Try working with someone else to make a conversation.
+Could two puppets talk to each other? Try working with someone else to make a conversation.
 --- /task ---
