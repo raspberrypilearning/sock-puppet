@@ -23,14 +23,14 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
 --- task ---
-### Make the body
+### Choose a sock
 
 Choose a sock that will fit on your hand, colourful or textured socks are fun!
 ![Image of a green textured sock](images/sock-1.jpg){:width="500px"}
 --- /task ---
 
 --- task ---
-### Add card to mouth
+### Add card for a mouth
 
 Cut out thin card to just smaller than the mouth shape.
 
