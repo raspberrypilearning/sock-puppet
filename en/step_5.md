@@ -1,8 +1,8 @@
-## Add a mouth and eyes
+## Hairstyle
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Bring it to life with card for a mouth and beads or googly eyes.
+Give your puppet a hairdo!
 </div>
 <div>
 
@@ -23,27 +23,47 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
 --- task ---
-### Add card to mouth
+### Make the hair
 
-Cut out thin card to just smaller than the mouth shape.
+Wrap coloured yarn or string around some scrap card. 
 
-Tape, sew or glue it on the outside of the sock, where the mouth is.
-
-**Warning:** If you are using hot glue, do not touch the card. Hold the sock on either side instead. 
-
-![Cutting out a mouth in red card](images/mouth-1.png){:width="500px"}
-![Gluing mouth](images/mouth-2.png){:width="500px"}
-![Holding mouth for the glue to set](images/mouth-3.png){:width="500px"}
+![Yarn wrapped aorund card](images/hair-1.png){:width="500px"}
 --- /task ---
 
 
 --- task ---
-### Attach eyes
+Take yarn off the card and fasten it with another bit of yarn.  
 
-Glue eyes to the head. 
+Tie it in a knot in the middle of the yarn to create two loops.
 
-Googly eyes, buttons, beads, ping-pong balls with black pen all work well.
+![Yarn wrapped into a loop](images/hair-3.png){:width="500px"}
+![Tying a knot in the middle of the loop](images/hair-4.png){:width="500px"}
+--- /task ---
 
-![Gluing on an eye, there is one eye already fixed](images/eye-1.png){:width="500px"}
-![Holding the eye, ready to attach it](images/eye-2.png){:width="500px"}
+
+--- task ---
+Cut the end of each loop.
+
+![Cutting the yarn loops](images/hair-5.png){:width="500px"}
+--- /task ---
+
+
+--- task ---
+### Attach and style hair
+
+Sew, tape or glue the yarn in the middle of the head. 
+
+**Warning:** if using hot glue - do not touch the glue directly.
+
+![Gluing the head of the puppet](images/hair-6.png){:width="500px"}
+![Pressing down hair to fix onto glue](images/hair-7.png){:width="500px"}
+![Puppet with pink hair](images/hair-8.png){:width="500px"}
+--- /task ---
+
+--- task ---
+### Style it
+
+Style the hair how you want it.
+
+![Animated gif of pink hair being styled on a sock puppet. The puppet is a green textured sock puppet with googley eyes.](images/hairstyle.gif)
 --- /task ---

@@ -1,8 +1,8 @@
-## Embed the switch
+## Attach board 
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add the foil switch to the mouth.
+Put the Micro:bit and wires on the back
 </div>
 <div>
 
@@ -21,22 +21,32 @@ Add the foil switch to the mouth.
 
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
+
 --- task ---
-### Attach the foil
+### Use card for the board
 
-Glue both bits of foil onto the top and bottom of the mouth. 
+Attach the Micro:bit board to a bit of cardboard with an elastic or hairband.
 
-![Puppet with mouth open, showing placement of two bits of foil ](images/switch-0a.png){:width="500px"}
+![Micro:bit attached to card with a hairband](images/attach-2.jpg){:width="500px"}
 --- /task ---
 
 --- task ---
-### Clip it
+### Organise the wires
 
-Clip onto both sides of the foil. One with the `GND` clip and the other with the `P1`{:class='microbitinput'} clip
+Tuck some of the wires under the band on the other side of the card to keep them tidy
 
-![Someone clipping the top foil with a black wire](images/switch-1.png){:width="500px"}
-![Someone clipping the bottom foil with a green wire](images/switch-1a.png){:width="500px"}
-![Puppet mouth open, showing foil on top and bottom attached to clips](images/switch-3.jpg){:width="500px"}
+![Wires on a bit of card tucked into a hairband](images/attach-3.jpg){:width="500px"}
 --- /task ---
+
+
+--- task ---
+### Attach to sock
+
+Glue, sew or tape the card to the sock.
+
+![Side view of Micro:bit and wires attached to sock puppet](images/attach-7.png){:width="500px"}
+![Front view of Micro:bit and wires attached to sock puppet](images/attach-8.png){:width="500px"}
+--- /task ---
+
 
 

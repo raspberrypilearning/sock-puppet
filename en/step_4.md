@@ -30,41 +30,27 @@ Choose a sock that will fit on your hand, colourful or textured socks are fun!
 --- /task ---
 
 --- task ---
-### Cut out card for the mouth
+### Add card to mouth
 
-![Image of a card on top of green textured sock](images/make-0.jpg){:width="500px"}
-![Image of a an oval shape being cut out of card](images/make-1.png){:width="500px"}
+Cut out thin card to just smaller than the mouth shape.
 
+Tape, sew or glue it on the outside of the sock, where the mouth is.
+
+**Warning:** If you are using hot glue, do not touch the card. Hold the sock on either side instead. 
+
+![Cutting out a mouth in red card](images/mouth-1.png){:width="500px"}
+![Gluing mouth](images/mouth-2.png){:width="500px"}
+![Holding mouth for the glue to set](images/mouth-3.png){:width="500px"}
 --- /task ---
 
 --- task ---
-### Add a head
+### Attach eyes
 
-Cut out a head from a paper cup, and make a semi-circle for your fingers.
+Glue eyes to the head. 
 
-![Cutting a shape out of a paper cup](images/make-2.png){:width="500px"}
-![a semicircle cut out of a paper cup](images/make-3.png){:width="500px"}
+Googly eyes, buttons, beads, ping-pong balls with black pen all work well.
 
+![Gluing on an eye, there is one eye already fixed](images/eye-1.png){:width="500px"}
+![Holding the eye, ready to attach it](images/eye-2.png){:width="500px"}
 --- /task ---
 
---- task ---
-Tape or glue the head onto the mouth piece, with semi-circle at the back.
-
-**Warning:** If you are using hot glue make sure that it is supervised by a mentor or club leader.
-
-![Gluing paper cup and card together](images/make-3a.png){:width="500px"}
-![Holding paper cup and card in place while being glued](images/make-3b.png){:width="500px"}
-![Holding paper cup and card in place while being glued from a side angle](images/make-5.png){:width="500px"}
-
---- /task ---
-
-
-
---- task ---
-Insert mouth and head into the sock, and position at the end, where the toes normally go. 
-
-**Tip:** roll the sock up before you stretch it over the cup.
-
-![Stretching sock over cup](images/make-6.png){:width="500px"}
-![Cup and card embedded in the sock](images/make-8.png){:width="500px"}
---- /task ---

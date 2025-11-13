@@ -1,8 +1,8 @@
-## Hairstyle
+## Embed the switch
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Give your puppet a hairdo!
+Add the foil switch to the mouth.
 </div>
 <div>
 
@@ -21,49 +21,22 @@ Give your puppet a hairdo!
 
 Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
-
 --- task ---
-### Make the hair
+### Attach the foil
 
-Wrap coloured yarn or string around some scrap card. 
+Glue both bits of foil onto the top and bottom of the mouth. 
 
-![Yarn wrapped aorund card](images/hair-1.png){:width="500px"}
---- /task ---
-
-
---- task ---
-Take yarn off the card and fasten it with another bit of yarn.  
-
-Tie it in a knot in the middle of the yarn to create two loops.
-
-![Yarn wrapped into a loop](images/hair-3.png){:width="500px"}
-![Tying a knot in the middle of the loop](images/hair-4.png){:width="500px"}
---- /task ---
-
-
---- task ---
-Cut the end of each loop.
-
-![Cutting the yarn loops](images/hair-5.png){:width="500px"}
---- /task ---
-
-
---- task ---
-### Attach and style hair
-
-Sew, tape or glue the yarn in the middle of the head. 
-
-**Warning:** if using hot glue - do not touch the glue directly.
-
-![Gluing the head of the puppet](images/hair-6.png){:width="500px"}
-![Pressing down hair to fix onto glue](images/hair-7.png){:width="500px"}
-![Puppet with pink hair](images/hair-8.png){:width="500px"}
+![Puppet with mouth open, showing placement of two bits of foil ](images/switch-0a.png){:width="500px"}
 --- /task ---
 
 --- task ---
-### Style it
+### Clip it
 
-Style the hair how you want it.
+Clip onto both sides of the foil. One with the `GND` clip and the other with the `P1`{:class='microbitinput'} clip
 
-![Animated gif of pink hair being styled on a sock puppet. The puppet is a green textured sock puppet with googley eyes.](images/hairstyle.gif)
+![Someone clipping the top foil with a black wire](images/switch-1.png){:width="500px"}
+![Someone clipping the bottom foil with a green wire](images/switch-1a.png){:width="500px"}
+![Puppet mouth open, showing foil on top and bottom attached to clips](images/switch-3.jpg){:width="500px"}
 --- /task ---
+
+
