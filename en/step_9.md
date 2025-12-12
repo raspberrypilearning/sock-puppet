@@ -1,7 +1,7 @@
 ## More challenges!
 
 --- task ---
-What other movements could you use, what about a shaking head with no sound?
+What other movements could you use, what about a shaking head?
 --- /task ---
 
 --- task ---
