@@ -1,4 +1,4 @@
-## Hairstyle
+## Add hair
 
 --- task ---
 ### Make the hair

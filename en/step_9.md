@@ -1,4 +1,4 @@
-## More challenges!
+## More challenges
 
 --- task ---
 What other movements could you use, what about a shaking head?

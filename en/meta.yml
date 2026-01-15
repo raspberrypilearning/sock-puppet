@@ -5,16 +5,16 @@ listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Foil switch
+  - title: Make a foil switch
   - title: Add a buzzer
   - title: Make the puppet
-  - title: Hairstyle
+  - title: Add hair
   - title: Embed the switch
   - title: Attach board 
-  - title: Challenge! Sound and gestures
+  - title: 'Challenge: Sound and gestures'
     completion:
       - engaged      
-  - title: More challenges!
+  - title: More challenges
     challenge: true
     completion:
       - external

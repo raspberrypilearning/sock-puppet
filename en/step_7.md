@@ -1,4 +1,4 @@
-## Attach board 
+## Attach the micro:bit 
 
 --- task ---
 ### Use card for the board

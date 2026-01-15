@@ -1,4 +1,4 @@
-## Challenge! Sound and gestures
+## Challenge: Sound and gestures
 
 --- task ---
 ### Add a gesture
