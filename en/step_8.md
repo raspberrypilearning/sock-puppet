@@ -5,16 +5,16 @@
 
 Remove the `Play`{:class='microbitfunctions'} block and add an `if else`{:class='microbitlogic'} block from the `logic`{:class='microbitlogic'} menu. 
 
-![Microbit blocks - showing the if else block inside a pi released](images/challenge-1.png){:width="400px"}
+![micro:bit blocks showing the if else block inside a on pin released block.](images/challenge-1.png){:width="400px"}
 --- /task ---
 
 
 --- task ---
-👀 Look at which way up your Micro:bit is on the puppet. If the Microbit is facing down, you can use the `logo down gesture`{:class='microbitinput'} block to trigger the sound in the next step.
+👀 Look at which way up your micro:bit is on the puppet. If the micro:bit is facing down, you can use the `logo down gesture`{:class='microbitinput'} block to trigger the sound in the next step.
 
-**Tip:** if the Micro:bit is a differnt way up, experiment with some of the other gestures.
+**Tip:** If the micro:bit is a differnt way up, experiment with some of the other gestures.
 
-![Showing the Micro:bit on the back of the sock puppet, with an arrow illustraitng how the Micro:bit is facing down](images/down.png){:width="500px"}
+![The micro:bit on the back of the sock puppet, with an arrow illustraitng how the micro:bit is facing down.](images/down.png){:width="500px"}
 --- /task ---
 
 
@@ -23,9 +23,9 @@ Remove the `Play`{:class='microbitfunctions'} block and add an `if else`{:class=
 --- task ---
 Drag the `shake gesture`{:class='microbitinput'} block next to the `if`{:class='microbitlogic'}. 
 
-Choose `logo down`{:class='microbitinput'} from the dropdown menu, or a different gesture that works for your puppet. 
+Choose `logo down`{:class='microbitinput'} from the drop-down menu, or a different gesture that works for your puppet. 
 
-![Animated gif of a Make code gesture input blocks](images/challenge-2.gif){:width="400px"}
+![Animated gif of a MakeCode gesture input blocks being dragged into place.](images/challenge-2.gif){:width="400px"}
 
 --- /task ---
 
@@ -34,7 +34,7 @@ Drag a `play HELLO`{:class='microbitfunctions'} block inside the `if`{:class='mi
 
 This will play the “hello” sound when the puppet is upright.
 
-![Make code gesture input blocks and a play block inside a if](images/challenge-3.png){:width="400px"}
+![MakeCode gesture input blocks and a play block inside an if block.](images/challenge-3.png){:width="400px"}
 
 --- /task ---
 
@@ -44,11 +44,11 @@ Add a new `play`{:class='microbitfunctions'} block from the `Puppet`{:class='mic
 
 This will make a sad sound when the puppet is facing down.
 
-![Make code gesture input blocks and a play block inside a if with another play block in the else](images/challenge-4.png){:width="400px"}
+![MakeCode gesture input blocks and a play block inside an if block with another play block in the else section.](images/challenge-4.png){:width="400px"}
 
 --- /task ---
 
 --- task ---
-**Test:** check the sad and happy sounds are working when you rotate the puppet and open the mouth.
+**Test:** Check the sad and happy sounds are working when you rotate the puppet and open the mouth.
 --- /task ---
 

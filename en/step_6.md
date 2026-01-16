@@ -2,19 +2,19 @@
 --- task ---
 ### Attach the foil
 
-Glue both bits of foil onto the top and bottom of the mouth. 
+Glue one bit of foil onto the top of the mouth and the other onto the bottom of the mouth. 
 
-![Puppet with mouth open, showing placement of two bits of foil ](images/switch-0a.png){:width="500px"}
+![Puppet with mouth open, showing the placement of two bits of foil.](images/switch-0a.png){:width="500px"}
 --- /task ---
 
 --- task ---
 ### Clip it
 
-Clip onto both sides of the foil. One with the `GND` clip and the other with the `P1`{:class='microbitinput'} clip
+Clip onto each piece of foil, one with the `GND` clip and the other with the `P1`{:class='microbitinput'} clip.
 
-![Someone clipping the top foil with a black wire](images/switch-1.png){:width="500px"}
-![Someone clipping the bottom foil with a green wire](images/switch-1a.png){:width="500px"}
-![Puppet mouth open, showing foil on top and bottom attached to clips](images/switch-3.jpg){:width="500px"}
+![Adding a clip with a black wire to the top foil.](images/switch-1.png){:width="500px"}
+![Adding a clip with a green wire to the bottom foil.](images/switch-1a.png){:width="500px"}
+![Puppet mouth open, showing the foil on top and bottom with clips attached.](images/switch-3.jpg){:width="500px"}
 --- /task ---
 
 

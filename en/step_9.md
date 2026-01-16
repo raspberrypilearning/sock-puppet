@@ -1,7 +1,7 @@
 ## More challenges
 
 --- task ---
-What other movements could you use, what about a shaking head?
+What other movements could you use? What about shaking the puppet's head?
 --- /task ---
 
 --- task ---

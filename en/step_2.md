@@ -12,7 +12,7 @@ Open the starter project at [rpf.io/sock-puppet](https://rpf.io/sock-puppet){:ta
 
 The puppet uses a foil switch to detect if the mouth is **open** or **closed**.
 
-![An animation of the foil switch in the puppet's mouth being opened and closed.](images/open-close.gif)
+![An animation of the foil switch in the puppet's mouth, with the mouth being opened and closed.](images/open-close.gif)
 
 Clip the foil to the micro:bit to create the switch. Connect one piece of foil to **GND** and the other to **pin 1**. When the foil pieces touch, it completes the circuit.
 
@@ -51,7 +51,7 @@ input.onPinReleased(TouchPin.P1, function () {
 --- task ---
 Add a `show icon`{:class='microbitbasic'} block from the `Basic`{:class='microbitbasic'} menu. 
 
-Select an icon in the drop-down menu. In this example, we will use the square icon.
+Select an icon in the drop-down menu. In this example, we use the square icon.
 
 The icon will appear when the foil switch is open.
 
@@ -64,5 +64,5 @@ input.onPinReleased(TouchPin.P1, function () {
 
 
 --- task ---
-**Test:** Connect the two pieces of foil together, then release them and see the icon appear.
+**Test:** Connect the two pieces of foil together, then release them to see the icon appear.
 --- /task ---
