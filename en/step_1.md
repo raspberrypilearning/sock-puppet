@@ -15,8 +15,9 @@ Make a sock puppet that makes cute sounds! Here is a video of the puppet in acti
 **For the puppet:**
 - Sock that fits your hand
 - Card
-- Yarn or fabric to make hair
+- Cardboard
 - Googly eyes (optional, but highly recommended!)
+- Yarn or fabric to make hair
 - Hair tie or elastic band
 - Scissors
 - Glue or sticky tape
