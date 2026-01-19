@@ -11,7 +11,7 @@ steps:
   - title: Add hair
   - title: Embed the switch
   - title: Attach board 
-  - title: Challenge: Sound and gestures
+  - title: 'Challenge: Sound and gestures'
     completion:
       - engaged      
   - title: More challenges
