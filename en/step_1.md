@@ -16,15 +16,15 @@ Make a sock puppet that makes cute sounds! Here is a video of the puppet in acti
 - Sock that fits your hand
 - Card
 - Yarn or fabric to make hair
-- Hair tie or elastic band
 - Googly eyes (optional, but highly recommended!)
+- Hair tie or elastic band
 - Scissors
 - Glue or sticky tape
 
 **For the circuit:**
-- A BBC micro:bit and micro USB cable
-- Crocodile clips
-- Two pieces of aluminium foil
-- Active buzzer (optional if using a micro:bit V2)
+- BBC micro:bit and a micro USB cable
+- 4 crocodile clips
+- 2 pieces of aluminium foil
+- Active buzzer (optional if you are using a micro:bit V2)
 
 ![The equipment needed to make the circuit.](images/parts-4.png){:width="500px"}
