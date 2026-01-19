@@ -1,14 +1,20 @@
-title: Project title in sentence case
+title: Sock puppet
 hero_image: images/banner.png
-description: A short description of the project
+description: Make a puppet make some noise!
 listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Step title
+  - title: Make a foil switch
+  - title: Add a buzzer
+  - title: Make the puppet
+  - title: Add hair
+  - title: Embed the switch
+  - title: Attach board 
+  - title: 'Challenge: Sound and gestures'
     completion:
       - engaged      
-  - title: Challenge
+  - title: More challenges
     challenge: true
     completion:
       - external
