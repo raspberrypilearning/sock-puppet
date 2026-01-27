@@ -1,16 +1,16 @@
 ## Embed the switch
 --- task ---
-### Attach the foil
+### Attach the foil to puppet
 
-Glue one bit of foil onto the top of the mouth and the other onto the bottom of the mouth. 
+Un-clip the foil and glue one piece of foil onto the top of the puppet's mouth and the other onto the bottom. 
 
 ![Puppet with mouth open, showing the placement of two bits of foil.](images/switch-0a.png){:width="500px"}
 --- /task ---
 
 --- task ---
-### Clip it
+### Connect it
 
-Clip onto each piece of foil, one with the `GND` clip and the other with the `P1`{:class='microbitinput'} clip.
+Clip the foil on the top and bottom of the mouth to the micro:bit. One with the `GND` clip and the other with the `P1`{:class='microbitinput'} clip.
 
 ![Adding a clip with a black wire to the top foil.](images/switch-1.png){:width="500px"}
 ![Adding a clip with a green wire to the bottom foil.](images/switch-1a.png){:width="500px"}

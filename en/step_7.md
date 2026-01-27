@@ -26,5 +26,4 @@ Glue, sew, or tape the card to the sock.
 ![Front view of the micro:bit and wires attached to the sock puppet.](images/attach-8.png){:width="500px"}
 --- /task ---
 
-
-
+**Test:** Your puppet is now ready to go! Try it out to see if the sounds play when the mouth opens. You can also change the sound blocks to create different characters.
