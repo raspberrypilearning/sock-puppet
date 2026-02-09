@@ -1,7 +1,7 @@
 title: Sock puppet
 hero_image: images/banner.png
 description: Make a puppet make some noise!
-listed: false
+listed: true
 pdf: false
 steps:
   - title: What you will make
